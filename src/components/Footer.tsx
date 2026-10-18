@@ -116,17 +116,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/contact" className="hover:text-amber-400 transition-colors">
-                  Request Dialux IES Files
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-amber-400 transition-colors">
-                  Photometric Simulation Lab
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-amber-400 transition-colors">
-                  OEM / Custom Tooling
+                  Ask for Quotation
                 </Link>
               </li>
               <li>

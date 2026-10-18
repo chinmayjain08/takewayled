@@ -35,9 +35,9 @@ export default function Navbar() {
             <span className="hidden sm:inline-block text-zinc-600">|</span>
             <span className="hidden sm:inline-block text-zinc-300">GST: 08AAQFA5328K1Z2</span>
             <span className="hidden md:inline-block text-zinc-600">|</span>
-            <span className="hidden md:inline-flex items-center">
-              <ShieldCheck className="w-3.5 h-3.5 text-amber-400 mr-1" />
-              ISO 9001:2015 • CE • RoHS • IP66/67
+            <span className="hidden md:inline-flex items-center text-amber-400 font-semibold">
+              <ShieldCheck className="w-3.5 h-3.5 text-amber-400 mr-1.5" />
+              IP65 &amp; IP66 CERTIFIED • ISO 9001:2015 • CE • RoHS
             </span>
           </div>
           <div className="flex items-center space-x-3 text-zinc-400">
@@ -170,14 +170,12 @@ export default function Navbar() {
 
           {/* Right Action Button */}
           <div className="hidden lg:flex items-center space-x-3">
-            <a
-              href="https://wa.me/918766616660?text=Hi%2C%20I%20am%20interested%20in%20a%20B2B%20commercial%20LED%20lighting%20quotation."
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/contact#quote"
               className="inline-flex items-center px-4 py-2.5 rounded-lg text-sm font-medium text-zinc-950 bg-cyan-400 hover:bg-cyan-300 shadow-cyan-glow transition-all duration-300 font-mono font-semibold"
             >
-              Request B2B Quote
-            </a>
+              Ask for Quotation
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -244,14 +242,13 @@ export default function Navbar() {
             Admin Dashboard
           </Link>
           <div className="pt-2 pb-4">
-            <a
-              href="https://wa.me/918766616660?text=Hi%2C%20I%20am%20interested%20in%20a%20B2B%20commercial%20LED%20lighting%20quotation."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full text-center py-2.5 px-4 rounded-lg bg-cyan-400 text-zinc-950 font-mono font-semibold"
+            <Link
+              href="/contact#quote"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block w-full text-center py-2.5 px-4 rounded-lg bg-cyan-400 text-zinc-950 font-mono font-semibold hover:bg-cyan-300 transition-colors"
             >
-              Direct WhatsApp Quote (+91 87666 16660)
-            </a>
+              Ask for Quotation
+            </Link>
           </div>
         </div>
       )}

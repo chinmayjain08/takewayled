@@ -88,7 +88,7 @@ export default function ContactPage() {
         </div>
 
         {/* Right: RFQ Form */}
-        <div className="lg:col-span-7">
+        <div id="quote" className="lg:col-span-7 scroll-mt-24">
           <RfqForm />
         </div>
       </div>
