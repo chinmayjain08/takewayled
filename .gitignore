@@ -1,0 +1,59 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js build output
+/.next/
+/out/
+/build
+/dist
+
+# Netlify & Vercel
+.netlify
+.vercel
+
+# Environment variables & secrets (NEVER commit these)
+.env
+.env*.local
+.env.production
+.env.development
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.pem
+
+# Python & scratch files (utility extraction scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+scratch/
+.venv/
+venv/
+
+# Internal Docs & Chat Context (Untracked)
+CHAT_CONTEXT_HISTORY.md
+PROJECT_BLUEPRINT.md
+*.context.md
+docs/local/
+
+# Local Seeding & Maintenance Scripts (Untracked)
+seed*.js
+provision*.js
+verify.js
+test-actions.js
+scratch_analyze.js
+*.py
+
+

@@ -1,0 +1,2033 @@
+{
+  "catalogue": {
+    "brand": "TAKEWAY LED",
+    "title": "Solar Catalogue 2026",
+    "source_file": "TAKEWAY (1).pdf",
+    "total_pdf_pages": 50,
+    "currency": null,
+    "description": "Structured web-catalogue extraction from the supplied PDF."
+  },
+  "categories": [
+    {
+      "name": "Portable ESS Solar Inverter",
+      "subcategories": [
+        {
+          "name": "Solar Inverter"
+        }
+      ]
+    },
+    {
+      "name": "Solar Panel",
+      "subcategories": [
+        {
+          "name": "Solar Panel"
+        },
+        {
+          "name": "Solar Mobile Charger"
+        }
+      ]
+    },
+    {
+      "name": "Portable Solar Camping Lights",
+      "subcategories": [
+        {
+          "name": "Solar Rechargeable Fan"
+        },
+        {
+          "name": "Solar Emergency/Camping Light"
+        }
+      ]
+    },
+    {
+      "name": "Solar CCTV",
+      "subcategories": [
+        {
+          "name": "Solar CCTV Camera"
+        }
+      ]
+    },
+    {
+      "name": "Solar CCTV Lights",
+      "subcategories": [
+        {
+          "name": "Solar CCTV Flood Light"
+        },
+        {
+          "name": "Solar CCTV Street Light"
+        }
+      ]
+    },
+    {
+      "name": "Solar Street Lights",
+      "subcategories": [
+        {
+          "name": "Solar Street Light"
+        }
+      ]
+    },
+    {
+      "name": "Solar HighBay Lights",
+      "subcategories": [
+        {
+          "name": "Solar HighBay Light"
+        }
+      ]
+    },
+    {
+      "name": "Solar Flood Lights",
+      "subcategories": [
+        {
+          "name": "Solar Flood Light"
+        }
+      ]
+    },
+    {
+      "name": "Solar Garden Lights",
+      "subcategories": [
+        {
+          "name": "Solar UFO Garden Post Light"
+        },
+        {
+          "name": "Solar Bollard Light"
+        },
+        {
+          "name": "Solar Gate/Pillar Light"
+        },
+        {
+          "name": "Solar Wall/Lawn Light"
+        },
+        {
+          "name": "Solar Lawn Light"
+        },
+        {
+          "name": "Solar Flame Light"
+        },
+        {
+          "name": "Solar Wall Washer Light"
+        },
+        {
+          "name": "Solar Wall Light"
+        },
+        {
+          "name": "Solar Spike Light"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "tw-0001",
+      "category": "Portable ESS Solar Inverter",
+      "subcategory": "Solar Inverter",
+      "product_name": "Solar Inverter",
+      "model": "ABS-600W-576WH",
+      "specifications": {},
+      "image": "images/page-04.jpg",
+      "source": {
+        "pdf_page": 4,
+        "page_image": "images/page-04.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0002",
+      "category": "Portable ESS Solar Inverter",
+      "subcategory": "Solar Inverter",
+      "product_name": "Solar Inverter",
+      "model": "ABS-1200W-1152WH",
+      "specifications": {},
+      "image": "images/page-04.jpg",
+      "source": {
+        "pdf_page": 4,
+        "page_image": "images/page-04.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0003",
+      "category": "Portable ESS Solar Inverter",
+      "subcategory": "Solar Inverter",
+      "product_name": "Solar Inverter",
+      "model": "MB-200W-192WH",
+      "specifications": {},
+      "image": "images/page-05.jpg",
+      "source": {
+        "pdf_page": 5,
+        "page_image": "images/page-05.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0004",
+      "category": "Portable ESS Solar Inverter",
+      "subcategory": "Solar Inverter",
+      "product_name": "Solar Inverter",
+      "model": "MB-300W-384WH",
+      "specifications": {},
+      "image": "images/page-05.jpg",
+      "source": {
+        "pdf_page": 5,
+        "page_image": "images/page-05.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0005",
+      "category": "Portable ESS Solar Inverter",
+      "subcategory": "Solar Inverter",
+      "product_name": "Solar Inverter",
+      "model": "MB-600W-640WH",
+      "specifications": {},
+      "image": "images/page-05.jpg",
+      "source": {
+        "pdf_page": 5,
+        "page_image": "images/page-05.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0006",
+      "category": "Solar Panel",
+      "subcategory": "Solar Panel",
+      "product_name": "Solar Panel",
+      "model": "PV1240",
+      "specifications": {},
+      "image": "images/page-06.jpg",
+      "source": {
+        "pdf_page": 6,
+        "page_image": "images/page-06.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0007",
+      "category": "Solar Panel",
+      "subcategory": "Solar Panel",
+      "product_name": "Solar Panel",
+      "model": "PV1250",
+      "specifications": {},
+      "image": "images/page-06.jpg",
+      "source": {
+        "pdf_page": 6,
+        "page_image": "images/page-06.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0008",
+      "category": "Solar Panel",
+      "subcategory": "Solar Panel",
+      "product_name": "Solar Panel",
+      "model": "PV1275",
+      "specifications": {},
+      "image": "images/page-06.jpg",
+      "source": {
+        "pdf_page": 6,
+        "page_image": "images/page-06.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0009",
+      "category": "Solar Panel",
+      "subcategory": "Solar Panel",
+      "product_name": "Solar Panel",
+      "model": "PV12165",
+      "specifications": {},
+      "image": "images/page-06.jpg",
+      "source": {
+        "pdf_page": 6,
+        "page_image": "images/page-06.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0010",
+      "category": "Solar Panel",
+      "subcategory": "Solar Mobile Charger",
+      "product_name": "Solar Mobile Charger",
+      "model": "SMC-15W",
+      "specifications": {},
+      "image": "images/page-07.jpg",
+      "source": {
+        "pdf_page": 7,
+        "page_image": "images/page-07.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0011",
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Rechargeable Fan",
+      "product_name": "Solar Rechargeable Fan",
+      "model": "SOLAR-FAN-FS578-WH",
+      "specifications": {},
+      "image": "images/page-08.jpg",
+      "source": {
+        "pdf_page": 8,
+        "page_image": "images/page-08.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0012",
+      "category": "Solar CCTV",
+      "subcategory": "Solar CCTV Camera",
+      "product_name": "Solar CCTV Camera",
+      "model": "SOLAR-XG06-4G-DUAL",
+      "specifications": {},
+      "image": "images/page-09.jpg",
+      "source": {
+        "pdf_page": 9,
+        "page_image": "images/page-09.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0013",
+      "category": "Solar CCTV",
+      "subcategory": "Solar CCTV Camera",
+      "product_name": "Solar CCTV Camera",
+      "model": "SOLAR-XG06-46",
+      "specifications": {},
+      "image": "images/page-09.jpg",
+      "source": {
+        "pdf_page": 9,
+        "page_image": "images/page-09.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0014",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV Flood Light",
+      "model": "SOLAR-CCTV-T84-SREAL-4G",
+      "specifications": {},
+      "image": "images/page-10.jpg",
+      "source": {
+        "pdf_page": 10,
+        "page_image": "images/page-10.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0015",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV Flood Light",
+      "model": "SOLAR-CCTV-T84-SREAL-WF",
+      "specifications": {},
+      "image": "images/page-10.jpg",
+      "source": {
+        "pdf_page": 10,
+        "page_image": "images/page-10.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0016",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV Flood Light",
+      "model": "SOLAR-CCTV-T64-3REAL",
+      "specifications": {},
+      "image": "images/page-10.jpg",
+      "source": {
+        "pdf_page": 10,
+        "page_image": "images/page-10.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0017",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV Flood Light",
+      "model": "SOLAR-FL-CCTV-30",
+      "specifications": {},
+      "image": "images/page-11.jpg",
+      "source": {
+        "pdf_page": 11,
+        "page_image": "images/page-11.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0018",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Street Light",
+      "product_name": "Solar CCTV Street Light",
+      "model": "SOLAR-SL-CCTV-15-1LENS-4G",
+      "specifications": {},
+      "image": "images/page-12.jpg",
+      "source": {
+        "pdf_page": 12,
+        "page_image": "images/page-12.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0019",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Street Light",
+      "product_name": "Solar CCTV Street Light",
+      "model": "SOLAR-SL-CCTV-20-1LENS",
+      "specifications": {},
+      "image": "images/page-13.jpg",
+      "source": {
+        "pdf_page": 13,
+        "page_image": "images/page-13.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0020",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Street Light",
+      "product_name": "Solar CCTV Street Light",
+      "model": "SOLAR-SL-CCTV-20-4LENS",
+      "specifications": {},
+      "image": "images/page-14.jpg",
+      "source": {
+        "pdf_page": 14,
+        "page_image": "images/page-14.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0021",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-METAL80",
+      "specifications": {},
+      "image": "images/page-15.jpg",
+      "source": {
+        "pdf_page": 15,
+        "page_image": "images/page-15.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0022",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-INT-METAL80",
+      "specifications": {},
+      "image": "images/page-16.jpg",
+      "source": {
+        "pdf_page": 16,
+        "page_image": "images/page-16.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0023",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-INT-METAL100",
+      "specifications": {},
+      "image": "images/page-16.jpg",
+      "source": {
+        "pdf_page": 16,
+        "page_image": "images/page-16.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0024",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-INT-METAL120",
+      "specifications": {},
+      "image": "images/page-16.jpg",
+      "source": {
+        "pdf_page": 16,
+        "page_image": "images/page-16.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0025",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-HP60",
+      "specifications": {},
+      "image": "images/page-17.jpg",
+      "source": {
+        "pdf_page": 17,
+        "page_image": "images/page-17.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0026",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-HP80",
+      "specifications": {},
+      "image": "images/page-17.jpg",
+      "source": {
+        "pdf_page": 17,
+        "page_image": "images/page-17.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0027",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-SEMI-12R",
+      "specifications": {},
+      "image": "images/page-18.jpg",
+      "source": {
+        "pdf_page": 18,
+        "page_image": "images/page-18.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0028",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-SEMI-20R",
+      "specifications": {},
+      "image": "images/page-18.jpg",
+      "source": {
+        "pdf_page": 18,
+        "page_image": "images/page-18.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0029",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-SEMI-30R",
+      "specifications": {},
+      "image": "images/page-18.jpg",
+      "source": {
+        "pdf_page": 18,
+        "page_image": "images/page-18.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0030",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "emaining",
+      "specifications": {},
+      "image": "images/page-18.jpg",
+      "source": {
+        "pdf_page": 18,
+        "page_image": "images/page-18.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0031",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-SEMI-30R-LENS",
+      "specifications": {},
+      "image": "images/page-18.jpg",
+      "source": {
+        "pdf_page": 18,
+        "page_image": "images/page-18.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0032",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "TAKEWAY-SEMI-50R",
+      "specifications": {},
+      "image": "images/page-18.jpg",
+      "source": {
+        "pdf_page": 18,
+        "page_image": "images/page-18.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0033",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT-APPLE40",
+      "specifications": {},
+      "image": "images/page-19.jpg",
+      "source": {
+        "pdf_page": 19,
+        "page_image": "images/page-19.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0034",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT-APPLE5O",
+      "specifications": {},
+      "image": "images/page-19.jpg",
+      "source": {
+        "pdf_page": 19,
+        "page_image": "images/page-19.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0035",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT-KING35",
+      "specifications": {},
+      "image": "images/page-20.jpg",
+      "source": {
+        "pdf_page": 20,
+        "page_image": "images/page-20.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0036",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT-KING45",
+      "specifications": {},
+      "image": "images/page-20.jpg",
+      "source": {
+        "pdf_page": 20,
+        "page_image": "images/page-20.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0037",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-AEROPLUS-25",
+      "specifications": {},
+      "image": "images/page-21.jpg",
+      "source": {
+        "pdf_page": 21,
+        "page_image": "images/page-21.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0038",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-AEROPLUS-30",
+      "specifications": {},
+      "image": "images/page-21.jpg",
+      "source": {
+        "pdf_page": 21,
+        "page_image": "images/page-21.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0039",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-AEROPLUS-35",
+      "specifications": {},
+      "image": "images/page-21.jpg",
+      "source": {
+        "pdf_page": 21,
+        "page_image": "images/page-21.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0040",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-AERO-INT-25",
+      "specifications": {},
+      "image": "images/page-22.jpg",
+      "source": {
+        "pdf_page": 22,
+        "page_image": "images/page-22.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0041",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-AERO-INT-30",
+      "specifications": {},
+      "image": "images/page-22.jpg",
+      "source": {
+        "pdf_page": 22,
+        "page_image": "images/page-22.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0042",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-AERO-INT-35",
+      "specifications": {},
+      "image": "images/page-22.jpg",
+      "source": {
+        "pdf_page": 22,
+        "page_image": "images/page-22.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0043",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT-2LENS-25R",
+      "specifications": {},
+      "image": "images/page-23.jpg",
+      "source": {
+        "pdf_page": 23,
+        "page_image": "images/page-23.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0044",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT-3LENS-35R",
+      "specifications": {},
+      "image": "images/page-23.jpg",
+      "source": {
+        "pdf_page": 23,
+        "page_image": "images/page-23.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0045",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-INT-SPACE25",
+      "specifications": {},
+      "image": "images/page-24.jpg",
+      "source": {
+        "pdf_page": 24,
+        "page_image": "images/page-24.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0046",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-INT-SPACE35",
+      "specifications": {},
+      "image": "images/page-24.jpg",
+      "source": {
+        "pdf_page": 24,
+        "page_image": "images/page-24.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0047",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-INT-ADJ-10",
+      "specifications": {},
+      "image": "images/page-25.jpg",
+      "source": {
+        "pdf_page": 25,
+        "page_image": "images/page-25.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0048",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SL-INT-ADJ-15",
+      "specifications": {},
+      "image": "images/page-25.jpg",
+      "source": {
+        "pdf_page": 25,
+        "page_image": "images/page-25.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0049",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINTOSR-STAR",
+      "specifications": {},
+      "image": "images/page-26.jpg",
+      "source": {
+        "pdf_page": 26,
+        "page_image": "images/page-26.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0050",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT1OR-STAR",
+      "specifications": {},
+      "image": "images/page-26.jpg",
+      "source": {
+        "pdf_page": 26,
+        "page_image": "images/page-26.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0051",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT15R-STAR",
+      "specifications": {},
+      "image": "images/page-26.jpg",
+      "source": {
+        "pdf_page": 26,
+        "page_image": "images/page-26.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0052",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINTOSR",
+      "specifications": {},
+      "image": "images/page-27.jpg",
+      "source": {
+        "pdf_page": 27,
+        "page_image": "images/page-27.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0053",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT1OR",
+      "specifications": {},
+      "image": "images/page-27.jpg",
+      "source": {
+        "pdf_page": 27,
+        "page_image": "images/page-27.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0054",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINTISR",
+      "specifications": {},
+      "image": "images/page-27.jpg",
+      "source": {
+        "pdf_page": 27,
+        "page_image": "images/page-27.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0055",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT20R",
+      "specifications": {},
+      "image": "images/page-27.jpg",
+      "source": {
+        "pdf_page": 27,
+        "page_image": "images/page-27.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0056",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINTOSR-SB",
+      "specifications": {},
+      "image": "images/page-28.jpg",
+      "source": {
+        "pdf_page": 28,
+        "page_image": "images/page-28.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0057",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT10R-SB",
+      "specifications": {},
+      "image": "images/page-28.jpg",
+      "source": {
+        "pdf_page": 28,
+        "page_image": "images/page-28.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0058",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT15R-SB",
+      "specifications": {},
+      "image": "images/page-28.jpg",
+      "source": {
+        "pdf_page": 28,
+        "page_image": "images/page-28.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0059",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLARINT20R-SB",
+      "specifications": {},
+      "image": "images/page-28.jpg",
+      "source": {
+        "pdf_page": 28,
+        "page_image": "images/page-28.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0060",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SOLAR-NEW-MINIO2",
+      "specifications": {},
+      "image": "images/page-29.jpg",
+      "source": {
+        "pdf_page": 29,
+        "page_image": "images/page-29.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0061",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SOLAR-NEW-MINIO3",
+      "specifications": {},
+      "image": "images/page-29.jpg",
+      "source": {
+        "pdf_page": 29,
+        "page_image": "images/page-29.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0062",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SOLAR-NEW-MINI06",
+      "specifications": {},
+      "image": "images/page-29.jpg",
+      "source": {
+        "pdf_page": 29,
+        "page_image": "images/page-29.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0063",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SOLAR-NEW-MINIO6",
+      "specifications": {},
+      "image": "images/page-29.jpg",
+      "source": {
+        "pdf_page": 29,
+        "page_image": "images/page-29.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0064",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLAR-MINIO3",
+      "specifications": {},
+      "image": "images/page-29.jpg",
+      "source": {
+        "pdf_page": 29,
+        "page_image": "images/page-29.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0065",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLAR-MINIO6",
+      "specifications": {},
+      "image": "images/page-29.jpg",
+      "source": {
+        "pdf_page": 29,
+        "page_image": "images/page-29.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0066",
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "product_name": "Solar Street Light",
+      "model": "SLSOLAR-MINIO9",
+      "specifications": {},
+      "image": "images/page-29.jpg",
+      "source": {
+        "pdf_page": 29,
+        "page_image": "images/page-29.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0067",
+      "category": "Solar HighBay Lights",
+      "subcategory": "Solar HighBay Light",
+      "product_name": "Solar HighBay Light",
+      "model": "SOLAR-HIGHBAY-35R",
+      "specifications": {},
+      "image": "images/page-30.jpg",
+      "source": {
+        "pdf_page": 30,
+        "page_image": "images/page-30.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0068",
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "product_name": "Solar Flood Light",
+      "model": "FLSOLAR-LENS20",
+      "specifications": {},
+      "image": "images/page-31.jpg",
+      "source": {
+        "pdf_page": 31,
+        "page_image": "images/page-31.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0069",
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "product_name": "Solar Flood Light",
+      "model": "FLSOLAR-LENS30",
+      "specifications": {},
+      "image": "images/page-31.jpg",
+      "source": {
+        "pdf_page": 31,
+        "page_image": "images/page-31.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0070",
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "product_name": "Solar Flood Light",
+      "model": "FLSOLAR-CITY20",
+      "specifications": {},
+      "image": "images/page-32.jpg",
+      "source": {
+        "pdf_page": 32,
+        "page_image": "images/page-32.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0071",
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "product_name": "Solar Flood Light",
+      "model": "FLSOLAR-SKY30",
+      "specifications": {},
+      "image": "images/page-32.jpg",
+      "source": {
+        "pdf_page": 32,
+        "page_image": "images/page-32.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0072",
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "product_name": "Solar Flood Light",
+      "model": "FLSOLAR-FOLD10",
+      "specifications": {},
+      "image": "images/page-33.jpg",
+      "source": {
+        "pdf_page": 33,
+        "page_image": "images/page-33.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0073",
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "product_name": "Solar Flood Light",
+      "model": "FLSOLAR-FOLD15",
+      "specifications": {},
+      "image": "images/page-33.jpg",
+      "source": {
+        "pdf_page": 33,
+        "page_image": "images/page-33.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0074",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar UFO Garden Post Light",
+      "product_name": "Solar UFO Garden Post Light",
+      "model": "GARDENSOLAR15R-RGB",
+      "specifications": {},
+      "image": "images/page-34.jpg",
+      "source": {
+        "pdf_page": 34,
+        "page_image": "images/page-34.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0075",
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "product_name": "Solar Emergency/Camping Light",
+      "model": "EMSOLARFL30",
+      "specifications": {},
+      "image": "images/page-35.jpg",
+      "source": {
+        "pdf_page": 35,
+        "page_image": "images/page-35.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0076",
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "product_name": "Solar Emergency/Camping Light",
+      "model": "EMSOLARFL50",
+      "specifications": {},
+      "image": "images/page-35.jpg",
+      "source": {
+        "pdf_page": 35,
+        "page_image": "images/page-35.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0077",
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "product_name": "Solar Emergency/Camping Light",
+      "model": "EMSOLARFL100",
+      "specifications": {},
+      "image": "images/page-35.jpg",
+      "source": {
+        "pdf_page": 35,
+        "page_image": "images/page-35.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0078",
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "product_name": "Solar Emergency/Camping Light",
+      "model": "EM-4REF-CP100-31N1",
+      "specifications": {},
+      "image": "images/page-36.jpg",
+      "source": {
+        "pdf_page": 36,
+        "page_image": "images/page-36.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0079",
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "product_name": "Solar Emergency/Camping Light",
+      "model": "EM-6REF-CP100",
+      "specifications": {},
+      "image": "images/page-36.jpg",
+      "source": {
+        "pdf_page": 36,
+        "page_image": "images/page-36.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0080",
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "product_name": "Solar Emergency/Camping Light",
+      "model": "EM-4REF-CP100-31N1-FAN",
+      "specifications": {},
+      "image": "images/page-36.jpg",
+      "source": {
+        "pdf_page": 36,
+        "page_image": "images/page-36.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0081",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "product_name": "Solar Bollard Light",
+      "model": "SOLAR-BOLLARD-BIG-3IN1+RGB",
+      "specifications": {},
+      "image": "images/page-37.jpg",
+      "source": {
+        "pdf_page": 37,
+        "page_image": "images/page-37.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0082",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "product_name": "Solar Bollard Light",
+      "model": "SOLAR-BOLLARD-MINI-3IN1+RGB",
+      "specifications": {},
+      "image": "images/page-37.jpg",
+      "source": {
+        "pdf_page": 37,
+        "page_image": "images/page-37.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0083",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "product_name": "Solar Bollard Light",
+      "model": "SOLAR-BOLLARD-SECRET-WW",
+      "specifications": {},
+      "image": "images/page-38.jpg",
+      "source": {
+        "pdf_page": 38,
+        "page_image": "images/page-38.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0084",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "product_name": "Solar Bollard Light",
+      "model": "SOLAR-BOLLARD-CUBE-WW",
+      "specifications": {},
+      "image": "images/page-38.jpg",
+      "source": {
+        "pdf_page": 38,
+        "page_image": "images/page-38.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0085",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Gate/Pillar Light",
+      "product_name": "Solar Gate/Pillar Light",
+      "model": "SOLAR-GATE-BIG-3IN1+RGB",
+      "specifications": {},
+      "image": "images/page-39.jpg",
+      "source": {
+        "pdf_page": 39,
+        "page_image": "images/page-39.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0086",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Gate/Pillar Light",
+      "product_name": "Solar Gate/Pillar Light",
+      "model": "SOLAR-GATE-MINI-3IN1+RGB",
+      "specifications": {},
+      "image": "images/page-39.jpg",
+      "source": {
+        "pdf_page": 39,
+        "page_image": "images/page-39.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0087",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "product_name": "Solar Bollard Light",
+      "model": "SOLAR-BOLLARD-SECRET-WW",
+      "specifications": {},
+      "image": "images/page-40.jpg",
+      "source": {
+        "pdf_page": 40,
+        "page_image": "images/page-40.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0088",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "product_name": "Solar Bollard Light",
+      "model": "SOLAR-BOLLARD-CUBE-WW",
+      "specifications": {},
+      "image": "images/page-40.jpg",
+      "source": {
+        "pdf_page": 40,
+        "page_image": "images/page-40.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0089",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Gate/Pillar Light",
+      "product_name": "Solar Gate/Pillar Light",
+      "model": "SOLAR-GATE-SECRET-WW",
+      "specifications": {},
+      "image": "images/page-41.jpg",
+      "source": {
+        "pdf_page": 41,
+        "page_image": "images/page-41.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0090",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Gate/Pillar Light",
+      "product_name": "Solar Gate/Pillar Light",
+      "model": "SOLAR-GATE-CUBE-WW",
+      "specifications": {},
+      "image": "images/page-41.jpg",
+      "source": {
+        "pdf_page": 41,
+        "page_image": "images/page-41.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0091",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall/Lawn Light",
+      "product_name": "Solar Wall/Lawn Light",
+      "model": null,
+      "specifications": {},
+      "image": "images/page-42.jpg",
+      "source": {
+        "pdf_page": 42,
+        "page_image": "images/page-42.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0092",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall/Lawn Light",
+      "product_name": "Solar Wall/Lawn Light",
+      "model": "SOLAR-LAWN-SHADOW-WW",
+      "specifications": {},
+      "image": "images/page-43.jpg",
+      "source": {
+        "pdf_page": 43,
+        "page_image": "images/page-43.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0093",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall/Lawn Light",
+      "product_name": "Solar Wall/Lawn Light",
+      "model": "SOLAR-WALL-SHADOW-WW",
+      "specifications": {},
+      "image": "images/page-43.jpg",
+      "source": {
+        "pdf_page": 43,
+        "page_image": "images/page-43.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0094",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Lawn Light",
+      "product_name": "Solar Lawn Light",
+      "model": "SOLAR-LAWN-2WAY-WW",
+      "specifications": {},
+      "image": "images/page-44.jpg",
+      "source": {
+        "pdf_page": 44,
+        "page_image": "images/page-44.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0095",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Lawn Light",
+      "product_name": "Solar Lawn Light",
+      "model": "SOLAR-LAWN-MULTI-WW",
+      "specifications": {},
+      "image": "images/page-44.jpg",
+      "source": {
+        "pdf_page": 44,
+        "page_image": "images/page-44.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0096",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Flame Light",
+      "product_name": "Solar Flame Light",
+      "model": null,
+      "specifications": {},
+      "image": "images/page-45.jpg",
+      "source": {
+        "pdf_page": 45,
+        "page_image": "images/page-45.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0097",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Washer Light",
+      "product_name": "Solar Wall Washer Light",
+      "model": "SOLAR-WALLWASHER-4LED/UP-WW",
+      "specifications": {},
+      "image": "images/page-46.jpg",
+      "source": {
+        "pdf_page": 46,
+        "page_image": "images/page-46.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0098",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-202",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0099",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-202-RGB",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0100",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-303",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0101",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-303-RGB",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0102",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-606",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0103",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-606-RGB",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0104",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-6WAY",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0105",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "product_name": "Solar Wall Light",
+      "model": "SOLAR-WL-6WAY-RGB",
+      "specifications": {},
+      "image": "images/page-47.jpg",
+      "source": {
+        "pdf_page": 47,
+        "page_image": "images/page-47.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0106",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "product_name": "Solar Spike Light",
+      "model": null,
+      "specifications": {},
+      "image": "images/page-48.jpg",
+      "source": {
+        "pdf_page": 48,
+        "page_image": "images/page-48.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0107",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "product_name": "Solar Spike Light",
+      "model": "SOLAR-SPIKE-LENS-RGB",
+      "specifications": {},
+      "image": "images/page-49.jpg",
+      "source": {
+        "pdf_page": 49,
+        "page_image": "images/page-49.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0108",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "product_name": "Solar Spike Light",
+      "model": "SOLAR-SPIKE-LENS-WW",
+      "specifications": {},
+      "image": "images/page-49.jpg",
+      "source": {
+        "pdf_page": 49,
+        "page_image": "images/page-49.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0109",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "product_name": "Solar Spike Light",
+      "model": "SOLAR-SPIKE-SQUARE-WW",
+      "specifications": {},
+      "image": "images/page-49.jpg",
+      "source": {
+        "pdf_page": 49,
+        "page_image": "images/page-49.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0110",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "product_name": "Solar Spike Light",
+      "model": "SOLAR-SPIKE-UMBRELLA-WW",
+      "specifications": {},
+      "image": "images/page-50.jpg",
+      "source": {
+        "pdf_page": 50,
+        "page_image": "images/page-50.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0111",
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "product_name": "Solar Spike Light",
+      "model": "SOLAR-SPIKE-CRYSTAL-WW",
+      "specifications": {},
+      "image": "images/page-50.jpg",
+      "source": {
+        "pdf_page": 50,
+        "page_image": "images/page-50.jpg"
+      },
+      "extraction_notes": "Model identifier extracted from catalogue page OCR; verify against the page image. Product image currently references the full catalogue page."
+    },
+    {
+      "id": "tw-0112",
+      "category": "Solar CCTV",
+      "subcategory": "Solar CCTV Camera",
+      "product_name": "TAKEWAY Solar CCTV Single Camera 4G",
+      "model": "SOLAR-XG06-4G",
+      "specifications": {},
+      "image": "images/page-09.jpg",
+      "source": {
+        "pdf_page": 9,
+        "page_image": "images/page-09.jpg"
+      },
+      "extraction_notes": "Curated from the product heading/model table on the source page; image points to the full page."
+    },
+    {
+      "id": "tw-0113",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV 5 Real with Zoom Camera 4G/WiFi",
+      "model": "SOLAR-CCTV-T845-REAL-4G",
+      "specifications": {},
+      "image": "images/page-10.jpg",
+      "source": {
+        "pdf_page": 10,
+        "page_image": "images/page-10.jpg"
+      },
+      "extraction_notes": "Curated from the product heading/model table on the source page; image points to the full page."
+    },
+    {
+      "id": "tw-0114",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV 5 Real with Zoom Camera 4G/WiFi",
+      "model": "SOLAR-CCTV-T845-REAL-WIFI",
+      "specifications": {},
+      "image": "images/page-10.jpg",
+      "source": {
+        "pdf_page": 10,
+        "page_image": "images/page-10.jpg"
+      },
+      "extraction_notes": "Curated from the product heading/model table on the source page; image points to the full page."
+    },
+    {
+      "id": "tw-0115",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV 3 Real 4G/WiFi",
+      "model": "SOLAR-CCTV-T643-REAL-4G",
+      "specifications": {},
+      "image": "images/page-10.jpg",
+      "source": {
+        "pdf_page": 10,
+        "page_image": "images/page-10.jpg"
+      },
+      "extraction_notes": "Curated from the product heading/model table on the source page; image points to the full page."
+    },
+    {
+      "id": "tw-0116",
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "product_name": "Solar CCTV 3 Real 4G/WiFi",
+      "model": "SOLAR-CCTV-T643-REAL-WIFI",
+      "specifications": {},
+      "image": "images/page-10.jpg",
+      "source": {
+        "pdf_page": 10,
+        "page_image": "images/page-10.jpg"
+      },
+      "extraction_notes": "Curated from the product heading/model table on the source page; image points to the full page."
+    }
+  ],
+  "source_pages": [
+    {
+      "page": 4,
+      "category": "Portable ESS Solar Inverter",
+      "subcategory": "Solar Inverter",
+      "image": "images/page-04.jpg"
+    },
+    {
+      "page": 5,
+      "category": "Portable ESS Solar Inverter",
+      "subcategory": "Solar Inverter",
+      "image": "images/page-05.jpg"
+    },
+    {
+      "page": 6,
+      "category": "Solar Panel",
+      "subcategory": "Solar Panel",
+      "image": "images/page-06.jpg"
+    },
+    {
+      "page": 7,
+      "category": "Solar Panel",
+      "subcategory": "Solar Mobile Charger",
+      "image": "images/page-07.jpg"
+    },
+    {
+      "page": 8,
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Rechargeable Fan",
+      "image": "images/page-08.jpg"
+    },
+    {
+      "page": 9,
+      "category": "Solar CCTV",
+      "subcategory": "Solar CCTV Camera",
+      "image": "images/page-09.jpg"
+    },
+    {
+      "page": 10,
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "image": "images/page-10.jpg"
+    },
+    {
+      "page": 11,
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Flood Light",
+      "image": "images/page-11.jpg"
+    },
+    {
+      "page": 12,
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Street Light",
+      "image": "images/page-12.jpg"
+    },
+    {
+      "page": 13,
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Street Light",
+      "image": "images/page-13.jpg"
+    },
+    {
+      "page": 14,
+      "category": "Solar CCTV Lights",
+      "subcategory": "Solar CCTV Street Light",
+      "image": "images/page-14.jpg"
+    },
+    {
+      "page": 15,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-15.jpg"
+    },
+    {
+      "page": 16,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-16.jpg"
+    },
+    {
+      "page": 17,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-17.jpg"
+    },
+    {
+      "page": 18,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-18.jpg"
+    },
+    {
+      "page": 19,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-19.jpg"
+    },
+    {
+      "page": 20,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-20.jpg"
+    },
+    {
+      "page": 21,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-21.jpg"
+    },
+    {
+      "page": 22,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-22.jpg"
+    },
+    {
+      "page": 23,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-23.jpg"
+    },
+    {
+      "page": 24,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-24.jpg"
+    },
+    {
+      "page": 25,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-25.jpg"
+    },
+    {
+      "page": 26,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-26.jpg"
+    },
+    {
+      "page": 27,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-27.jpg"
+    },
+    {
+      "page": 28,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-28.jpg"
+    },
+    {
+      "page": 29,
+      "category": "Solar Street Lights",
+      "subcategory": "Solar Street Light",
+      "image": "images/page-29.jpg"
+    },
+    {
+      "page": 30,
+      "category": "Solar HighBay Lights",
+      "subcategory": "Solar HighBay Light",
+      "image": "images/page-30.jpg"
+    },
+    {
+      "page": 31,
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "image": "images/page-31.jpg"
+    },
+    {
+      "page": 32,
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "image": "images/page-32.jpg"
+    },
+    {
+      "page": 33,
+      "category": "Solar Flood Lights",
+      "subcategory": "Solar Flood Light",
+      "image": "images/page-33.jpg"
+    },
+    {
+      "page": 34,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar UFO Garden Post Light",
+      "image": "images/page-34.jpg"
+    },
+    {
+      "page": 35,
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "image": "images/page-35.jpg"
+    },
+    {
+      "page": 36,
+      "category": "Portable Solar Camping Lights",
+      "subcategory": "Solar Emergency/Camping Light",
+      "image": "images/page-36.jpg"
+    },
+    {
+      "page": 37,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "image": "images/page-37.jpg"
+    },
+    {
+      "page": 38,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "image": "images/page-38.jpg"
+    },
+    {
+      "page": 39,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Gate/Pillar Light",
+      "image": "images/page-39.jpg"
+    },
+    {
+      "page": 40,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Bollard Light",
+      "image": "images/page-40.jpg"
+    },
+    {
+      "page": 41,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Gate/Pillar Light",
+      "image": "images/page-41.jpg"
+    },
+    {
+      "page": 42,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall/Lawn Light",
+      "image": "images/page-42.jpg"
+    },
+    {
+      "page": 43,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall/Lawn Light",
+      "image": "images/page-43.jpg"
+    },
+    {
+      "page": 44,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Lawn Light",
+      "image": "images/page-44.jpg"
+    },
+    {
+      "page": 45,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Flame Light",
+      "image": "images/page-45.jpg"
+    },
+    {
+      "page": 46,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Washer Light",
+      "image": "images/page-46.jpg"
+    },
+    {
+      "page": 47,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Wall Light",
+      "image": "images/page-47.jpg"
+    },
+    {
+      "page": 48,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "image": "images/page-48.jpg"
+    },
+    {
+      "page": 49,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "image": "images/page-49.jpg"
+    },
+    {
+      "page": 50,
+      "category": "Solar Garden Lights",
+      "subcategory": "Solar Spike Light",
+      "image": "images/page-50.jpg"
+    }
+  ],
+  "data_quality": {
+    "important": "This is a first-pass extraction. The PDF is mostly image-based; model names were OCR-assisted and some model identifiers may be imperfect.",
+    "images": "Images are full-page renders for traceability, not isolated product cutouts. Use source.pdf_page to locate each product visually.",
+    "specifications": "The specifications object is intentionally empty rather than inventing or silently normalizing values. Use the included page images/OCR text to complete product-specific specs.",
+    "review_recommended": true
+  }
+}
