@@ -133,7 +133,7 @@ export default function ProductDetailInteractive({
               </span>
               <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-zinc-950/80 border border-cyan-500/50 text-cyan-300 backdrop-blur-md flex items-center">
                 <Droplets className="w-3.5 h-3.5 mr-1 text-cyan-400" />
-                {product.ip_rating}
+                {product.ip_rating || 'IP65 / IP66'}
               </span>
             </div>
 
@@ -179,7 +179,7 @@ export default function ProductDetailInteractive({
           {/* Quick Quality Assurance Highlights */}
           <div className="grid grid-cols-3 gap-3 text-center">
             <div className="glass-panel p-3 rounded-xl border border-zinc-800">
-              <div className="text-cyan-400 font-mono font-bold text-xs">5-YEAR</div>
+              <div className="text-cyan-400 font-mono font-bold text-xs">3-YEAR</div>
               <div className="text-[10px] text-zinc-400 font-mono mt-0.5">Warranty Included</div>
             </div>
             <div className="glass-panel p-3 rounded-xl border border-zinc-800">
@@ -286,7 +286,7 @@ export default function ProductDetailInteractive({
                 Ingress Protection
               </div>
               <div className="text-base font-bold font-mono text-white mt-1">
-                {product.ip_rating}
+                {product.ip_rating || 'IP65 / IP66'}
               </div>
             </div>
           </div>

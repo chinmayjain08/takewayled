@@ -42,7 +42,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         <div className="absolute top-3 right-3 z-10">
           <span className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-mono font-bold bg-zinc-900/90 border border-cyan-400/40 text-cyan-300 backdrop-blur-md">
             <Droplets className="w-3.5 h-3.5 mr-1 text-cyan-400" />
-            {product.ip_rating || 'IP66'}
+            {product.ip_rating || 'IP65/IP66'}
           </span>
         </div>
       </div>

@@ -742,7 +742,7 @@ export default function CatalogBrowser() {
 
             {/* Document Canvas (Zoomable & Pannable) */}
             <div
-              className="relative w-full h-[75vh] bg-zinc-950 overflow-auto flex items-center justify-center p-4 cursor-zoom-in"
+              className="relative w-full h-[60vh] sm:h-[75vh] bg-zinc-950 overflow-auto flex items-center justify-center p-2 sm:p-4 cursor-zoom-in touch-pan-y"
               onClick={() => setIsFullscreenModal(true)}
               title="Click to view in Fullscreen Lightbox with Zoom"
             >
@@ -812,7 +812,7 @@ export default function CatalogBrowser() {
               <span>Showing all 50 Pages</span>
             </div>
 
-            <div className="flex items-center space-x-3 overflow-x-auto pb-4 pt-1 scrollbar-thin scrollbar-thumb-zinc-700">
+            <div className="flex items-center space-x-3 overflow-x-auto pb-4 pt-1 overscroll-x-contain touch-pan-x scrollbar-thin scrollbar-thumb-zinc-700">
               {ALL_PAGES.map((p) => {
                 const isActive = p.pageNum === currentPageNum;
                 return (
@@ -983,11 +983,11 @@ export default function CatalogBrowser() {
             </div>
 
             {/* Flipping and Zoom Controls */}
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-1 sm:space-x-2">
               <button
                 type="button"
                 onClick={handlePrevPage}
-                className="p-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
+                className="p-2 min-h-[36px] min-w-[36px] flex items-center justify-center rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
                 title="Previous Page (Left Arrow)"
               >
                 <ChevronLeft className="w-4 h-4" />
@@ -995,18 +995,18 @@ export default function CatalogBrowser() {
               <button
                 type="button"
                 onClick={handleNextPage}
-                className="p-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
+                className="p-2 min-h-[36px] min-w-[36px] flex items-center justify-center rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
                 title="Next Page (Right Arrow)"
               >
                 <ChevronRight className="w-4 h-4" />
               </button>
 
-              <div className="h-5 w-px bg-zinc-800 mx-1" />
+              <div className="h-5 w-px bg-zinc-800 mx-0.5 sm:mx-1" />
 
               <button
                 type="button"
                 onClick={handleZoomIn}
-                className="p-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
+                className="p-2 min-h-[36px] min-w-[36px] flex items-center justify-center rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
                 title="Zoom In (+)"
               >
                 <ZoomIn className="w-4 h-4" />
@@ -1014,7 +1014,7 @@ export default function CatalogBrowser() {
               <button
                 type="button"
                 onClick={handleZoomOut}
-                className="p-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
+                className="p-2 min-h-[36px] min-w-[36px] flex items-center justify-center rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-300 hover:text-white border border-zinc-800 transition-colors"
                 title="Zoom Out (-)"
               >
                 <ZoomOut className="w-4 h-4" />

@@ -56,7 +56,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
               {currentCategory ? `${currentCategory} Luminaires` : 'All Heavy-Duty Luminaires'}
             </h1>
             <p className="mt-2 text-sm text-zinc-400 max-w-2xl">
-              Factory direct commercial lighting fixtures engineered with Grade-A LED arrays, Mean Well / Inventronics drivers, and IP66/IP67 rated housings.
+              Factory direct commercial lighting fixtures engineered with Grade-A LED arrays, Mean Well / Inventronics drivers, and IP65/IP66 weatherproof rated housings.
             </p>
           </div>
           <div className="inline-flex items-center px-3 py-1.5 rounded-lg bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300">

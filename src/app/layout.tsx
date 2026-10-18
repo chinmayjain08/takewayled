@@ -20,7 +20,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'TakewayLED | Heavy-Duty Commercial & Industrial LED Luminaires (Aasma Enterprises)',
   description: 'Jaipur-based ISO 9001:2015 certified manufacturer of high-efficacy commercial LED floodlights, UFO high bays, smart dolphin street lights, and integrated all-in-one solar luminaires. Direct B2B pricing & Dialux simulation support.',
-  keywords: 'commercial LED floodlights, UFO high bay lights, solar street light manufacturer jaipur, aasma enterprises, industrial luminaires, dolphin street light, stadium floodlights, IP67 LED rajasthan',
+  keywords: 'commercial LED floodlights, UFO high bay lights, solar street light manufacturer jaipur, aasma enterprises, industrial luminaires, dolphin street light, stadium floodlights, IP65 IP66 LED rajasthan',
 };
 
 export default function RootLayout({

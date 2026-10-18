@@ -70,7 +70,7 @@ export default async function HomePage() {
             <p className="max-w-3xl mx-auto text-base sm:text-lg lg:text-xl text-zinc-300 leading-relaxed font-sans">
               Engineered for extreme operating environments. Factory-direct commercial LED floodlights, UFO high bays, and intelligent roadway luminaires with up to{' '}
               <strong className="text-cyan-300 font-mono">180 lm/W efficacy</strong> and{' '}
-              <strong className="text-amber-300 font-mono">IP67 waterproof resilience</strong>.
+              <strong className="text-amber-300 font-mono">IP65 / IP66 waterproof resilience</strong>.
             </p>
           </div>
 
@@ -104,11 +104,11 @@ export default async function HomePage() {
               <div className="text-[11px] font-mono text-zinc-400 uppercase mt-1">L70 @ 55°C Lifespan</div>
             </div>
             <div className="glass-panel p-4 rounded-xl border border-zinc-800 text-center">
-              <div className="text-2xl sm:text-3xl font-black font-mono text-cyan-400">IP67/IK10</div>
+              <div className="text-2xl sm:text-3xl font-black font-mono text-cyan-400">IP65/IP66</div>
               <div className="text-[11px] font-mono text-zinc-400 uppercase mt-1">Waterproof & Impact Proof</div>
             </div>
             <div className="glass-panel p-4 rounded-xl border border-zinc-800 text-center">
-              <div className="text-2xl sm:text-3xl font-black font-mono text-emerald-400">5-YEAR</div>
+              <div className="text-2xl sm:text-3xl font-black font-mono text-emerald-400">3-YEAR</div>
               <div className="text-[11px] font-mono text-zinc-400 uppercase mt-1">Replacement Warranty</div>
             </div>
           </div>
@@ -365,7 +365,7 @@ export default async function HomePage() {
             </div>
 
             <div className="p-4 rounded-xl bg-zinc-950/80 border border-zinc-800 text-xs text-zinc-400 leading-relaxed">
-              <span className="text-cyan-400 font-bold">Factory Guarantee:</span> If any fixture experiences driver or diode failure during the 5-year warranty period, TakewayLED ships air-freight replacement components at zero cost to your facility.
+              <span className="text-cyan-400 font-bold">Factory Guarantee:</span> If any fixture experiences driver or diode failure during the 3-year warranty period, TakewayLED ships air-freight replacement components at zero cost to your facility.
             </div>
           </div>
         </div>

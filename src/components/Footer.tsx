@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-col items-center">
             <ShieldCheck className="w-6 h-6 text-amber-400 mb-2" />
-            <span className="text-xs font-mono font-bold text-zinc-200">IP66 / IP67 WATERPROOF</span>
+            <span className="text-xs font-mono font-bold text-zinc-200">IP65 &amp; IP66 WEATHERPROOF</span>
             <span className="text-[11px] text-zinc-400">Hermetically sealed against extreme dust & storms</span>
           </div>
           <div className="flex flex-col items-center">
@@ -137,7 +137,7 @@ export default function Footer() {
                 All luminaires undergo rigorous 72-hour high-temperature burn-in tests and helium-leak waterproofing verification before packaging.
               </p>
               <div className="p-3 rounded-lg bg-zinc-900 border border-zinc-800 text-[11px] font-mono text-zinc-300">
-                <span className="text-emerald-400 font-bold">5-YEAR REPLACEMENT</span>: Zero hassle driver and module swaps covered under factory terms.
+                <span className="text-emerald-400 font-bold">3-YEAR REPLACEMENT</span>: Zero hassle driver and module swaps covered under factory terms.
               </div>
             </div>
           </div>

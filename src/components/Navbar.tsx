@@ -25,22 +25,24 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 glass-nav transition-all duration-300">
       {/* Top Industrial Banner */}
-      <div className="bg-industrial-950/90 border-b border-zinc-800/60 py-1.5 px-4 text-xs font-mono tracking-wider text-zinc-400">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-4">
-            <span className="flex items-center text-cyan-400">
-              <span className="inline-block w-2 h-2 rounded-full bg-cyan-400 animate-ping mr-2" />
-              DIRECT MANUFACTURER • JAIPUR, INDIA
+      <div className="bg-industrial-950/90 border-b border-zinc-800/60 py-1.5 px-3 sm:px-4 text-xs font-mono tracking-wider text-zinc-400">
+        <div className="max-w-7xl mx-auto flex justify-between items-center gap-2">
+          <div className="flex items-center space-x-2 sm:space-x-4 min-w-0">
+            <span className="flex items-center text-cyan-400 truncate">
+              <span className="inline-block w-2 h-2 rounded-full bg-cyan-400 animate-ping mr-1.5 shrink-0" />
+              <span className="hidden sm:inline">DIRECT MANUFACTURER • JAIPUR, INDIA</span>
+              <span className="sm:hidden text-[11px] font-bold">TAKEWAY JAIPUR</span>
             </span>
             <span className="hidden sm:inline-block text-zinc-600">|</span>
             <span className="hidden sm:inline-block text-zinc-300">GST: 08AAQFA5328K1Z2</span>
-            <span className="hidden md:inline-block text-zinc-600">|</span>
-            <span className="hidden md:inline-flex items-center text-amber-400 font-semibold">
-              <ShieldCheck className="w-3.5 h-3.5 text-amber-400 mr-1.5" />
-              IP65 &amp; IP66 CERTIFIED • ISO 9001:2015 • CE • RoHS
+            <span className="text-zinc-600 sm:hidden">|</span>
+            <span className="inline-flex items-center text-amber-400 font-semibold text-[11px] sm:text-xs shrink-0">
+              <ShieldCheck className="w-3.5 h-3.5 text-amber-400 mr-1" />
+              <span className="sm:hidden">IP65 &amp; IP66</span>
+              <span className="hidden sm:inline">IP65 &amp; IP66 CERTIFIED • ISO 9001:2015 • CE • RoHS</span>
             </span>
           </div>
-          <div className="flex items-center space-x-3 text-zinc-400">
+          <div className="flex items-center space-x-3 text-zinc-400 shrink-0">
             <a
               href="https://wa.me/918766616660"
               target="_blank"
@@ -52,10 +54,11 @@ export default function Navbar() {
             <span className="hidden sm:inline-block text-zinc-700">|</span>
             <Link
               href="/admin"
-              className="flex items-center text-zinc-400 hover:text-cyan-400 transition-colors"
+              className="flex items-center text-zinc-400 hover:text-cyan-400 transition-colors text-[11px] sm:text-xs"
             >
               <Lock className="w-3 h-3 mr-1" />
-              Admin Portal
+              <span className="hidden sm:inline">Admin Portal</span>
+              <span className="sm:hidden">Admin</span>
             </Link>
           </div>
         </div>
