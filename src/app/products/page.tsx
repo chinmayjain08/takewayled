@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import { supabase } from '@/lib/supabaseClient';
 import { Product } from '@/types/product';
 import ProductCard from '@/components/ProductCard';
@@ -13,6 +15,24 @@ interface ProductsPageProps {
   };
 }
 
+function getLocalProducts(): Product[] {
+  try {
+    const filePath = path.join(process.cwd(), 'catalog_products.json');
+    if (fs.existsSync(filePath)) {
+      const fileData = fs.readFileSync(filePath, 'utf8');
+      const parsed = JSON.parse(fileData);
+      return parsed.map((p: any, idx: number) => ({
+        id: p.id || `local-${idx}-${p.slug}`,
+        created_at: p.created_at || '2026-10-01T00:00:00Z',
+        ...p,
+      }));
+    }
+  } catch (e) {
+    console.error('Error reading local catalog_products.json:', e);
+  }
+  return [];
+}
+
 async function getProducts(category?: string, search?: string): Promise<Product[]> {
   try {
     let query = supabase.from('products').select('*').order('created_at', { ascending: false });
@@ -26,15 +46,23 @@ async function getProducts(category?: string, search?: string): Promise<Product[
     }
 
     const { data, error } = await query;
-    if (error) {
-      console.error('Error fetching products:', error.message);
-      return [];
+    if (!error && data && data.length > 0) {
+      return data;
     }
-    return data || [];
   } catch (err) {
     console.error('Database connection error in getProducts:', err);
-    return [];
   }
+
+  // Robust fallback to local catalog_products.json
+  let local = getLocalProducts();
+  if (category && category !== 'all') {
+    local = local.filter((p) => p.category.toLowerCase() === category.toLowerCase());
+  }
+  if (search) {
+    const q = search.toLowerCase();
+    local = local.filter((p) => p.name.toLowerCase().includes(q) || p.description?.toLowerCase().includes(q));
+  }
+  return local;
 }
 
 export default async function ProductsPage({ searchParams }: ProductsPageProps) {

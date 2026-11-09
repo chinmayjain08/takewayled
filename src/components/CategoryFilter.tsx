@@ -11,14 +11,21 @@ export default function CategoryFilter({ currentCategory }: CategoryFilterProps)
   const searchParams = useSearchParams();
 
   const categories = [
-    { label: 'All Products (49)', value: 'all' },
-    { label: 'Solar Street Lights (16)', value: 'Solar Street Lights' },
-    { label: 'Solar CCTV Lights (7)', value: 'Solar CCTV Lights' },
-    { label: 'Solar Inverters & ESS (5)', value: 'Solar Inverters & ESS' },
-    { label: 'Solar Panels & Fans (3)', value: 'Solar Panels' },
+    { label: 'All Products (69)', value: 'all' },
+    { label: 'Solar Street Lights (15)', value: 'Solar Street Lights' },
+    { label: 'Indoor Commercial (6)', value: 'Indoor Commercial Lighting' },
+    { label: 'Architectural & Facade (3)', value: 'Architectural & Facade' },
+    { label: 'Commercial Floodlights (2)', value: 'Commercial Floodlights' },
+    { label: 'Roadway & Highway (1)', value: 'Roadway & Street Lights' },
+    { label: 'Industrial High Bays (2)', value: 'Industrial High Bays' },
+    { label: 'Smart Solar Spaces (6)', value: 'Smart Solar Spaces' },
+    { label: 'Defence & Camp Solutions (3)', value: 'Defence & Camp Solutions' },
+    { label: 'Solar CCTV Lights (6)', value: 'Solar CCTV Lights' },
+    { label: 'Solar Inverters & ESS (2)', value: 'Solar Inverters & ESS' },
+    { label: 'Solar Panels & Modules (3)', value: 'Solar Panels' },
     { label: 'Solar Floodlights (3)', value: 'Solar Floodlights' },
-    { label: 'Solar High Bays (1)', value: 'Solar High Bays' },
     { label: 'Garden, Post & Landscape (12)', value: 'Solar Post & Landscape' },
+    { label: 'Underwater & Pool (2)', value: 'Underwater & Landscape' },
     { label: 'Portable Work Lights (2)', value: 'Portable Work Lights' },
   ];
 

@@ -51,11 +51,23 @@ export default function ProductDetailInteractive({
   const activeCapacity = currentVariant?.capacity || product.lumens;
   const activeImage = currentVariant?.image_url || product.image_url;
 
-  // Extract catalog page number and high-res image
-  const catalogPageNum = product.catalog_pdf_url?.includes('page=')
-    ? product.catalog_pdf_url.split('page=')[1]
-    : null;
-  const catalogPageImg = catalogPageNum ? `/catalog_pages/page_${catalogPageNum}.jpg` : null;
+  // Extract catalog page and high-res image across all 5 catalogues
+  let catalogPageImg: string | null = null;
+  let catalogPageNum: string | null = null;
+  if (product.catalog_pdf_url) {
+    if (product.catalog_pdf_url.includes('catalog=')) {
+      const matchCat = product.catalog_pdf_url.match(/catalog=([^&]+)/);
+      const matchPage = product.catalog_pdf_url.match(/page=([^&]+)/);
+      const cat = matchCat ? matchCat[1] : 'solar';
+      catalogPageNum = matchPage ? matchPage[1] : null;
+      if (catalogPageNum) {
+        catalogPageImg = cat === 'solar' ? `/catalog_pages/page_${catalogPageNum}.jpg` : `/catalog_pages/${cat}/page_${catalogPageNum}.jpg`;
+      }
+    } else if (product.catalog_pdf_url.includes('page=')) {
+      catalogPageNum = product.catalog_pdf_url.split('page=')[1];
+      catalogPageImg = catalogPageNum ? `/catalog_pages/page_${catalogPageNum}.jpg` : null;
+    }
+  }
 
   // Handle ESC key to close lightbox
   useEffect(() => {

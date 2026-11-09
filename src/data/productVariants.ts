@@ -1064,4 +1064,746 @@ export const PRODUCT_VARIANTS: Record<string, ProductVariant[]> = {
       "specialFeature": "4 Prismatic Heavy-Glass Ground Fixtures for Flowerbed & Border Accent"
     }
   ]
+,
+  "takeway-led-wall-washer-lights": [
+      {
+          "model": "WW-18W-500MM",
+          "name": "18W 500mm Architectural LED Wall Washer",
+          "wattage": "18W (18x 1W 3030 LED)",
+          "capacity": "1800 Lumens (3000K Warm / 6000K White)",
+          "dimensions": "500 x 45 x 52 mm",
+          "ledSpec": "18 Pcs High-Power 3030 SMD, 30° Optical Lens",
+          "specialFeature": "220V AC / 24V DC, IP65 Waterproof, Die-Cast Aluminium Body",
+          "image_url": "/catalog_pages/outdoor/page_3.jpg"
+      },
+      {
+          "model": "WW-36W-1000MM",
+          "name": "36W 1000mm Architectural LED Wall Washer",
+          "wattage": "36W (36x 1W 3030 LED)",
+          "capacity": "3600 Lumens (3000K / 4000K / 6000K)",
+          "dimensions": "1000 x 45 x 52 mm",
+          "ledSpec": "36 Pcs High-Power 3030 SMD, 30° Optical Lens",
+          "specialFeature": "IP65 Weatherproof, High Transmittance Tempered Glass, Heavy Bracket",
+          "image_url": "/catalog_pages/outdoor/page_3.jpg"
+      },
+      {
+          "model": "WW-36W-VISOR-1000MM",
+          "name": "36W Anti-Glare Visor Architectural Wall Washer",
+          "wattage": "36W (36x 1W 3030 LED)",
+          "capacity": "3400 Lumens with Glare Shield",
+          "dimensions": "1000 x 55 x 75 mm",
+          "ledSpec": "36 Pcs 3030 SMD with Asymmetric Visor Hood",
+          "specialFeature": "Integrated Hood Cuts Direct Visual Glare for Monument & Facade Grazing",
+          "image_url": "/catalog_pages/outdoor/page_3.jpg"
+      },
+      {
+          "model": "WW-36W-DMX-RGB",
+          "name": "36W DMX512 Intelligent Color RGB Wall Washer",
+          "wattage": "36W (36x RGB Tri-color LEDs)",
+          "capacity": "16.7M Colors Dynamic Flow",
+          "dimensions": "1000 x 45 x 52 mm",
+          "ledSpec": "DMX512 Addressable RGB 24V DC",
+          "specialFeature": "Standard DMX512 Protocol Support for Dynamic City & Bridge Facade Shows",
+          "image_url": "/catalog_pages/outdoor/page_3.jpg"
+      }
+  ],
+  "takeway-wall-elevation-step-lights": [
+      {
+          "model": "SL-STEP-3W",
+          "name": "3W Recessed Step / Staircase Light",
+          "wattage": "3W COB",
+          "capacity": "270 Lumens Warm White",
+          "dimensions": "85 x 85 x 35 mm",
+          "ledSpec": "Bridgelux High CRI COB, 3000K",
+          "specialFeature": "Die-Cast In-Wall Recessed Housing, IP65 Glare-Free Downward Baffle",
+          "image_url": "/catalog_pages/outdoor/page_4.jpg"
+      },
+      {
+          "model": "SL-ELEVATION-6W-LENS",
+          "name": "6W Bi-Directional Elevation Lens Light",
+          "wattage": "6W (2x 3W Cree LEDs)",
+          "capacity": "540 Lumens Warm White",
+          "dimensions": "120 x 80 x 40 mm",
+          "ledSpec": "Convex Optical Projector Lenses (Up & Down Beam)",
+          "specialFeature": "Sharp Narrow-Beam Architectural Column & Wall Sconce Illumination",
+          "image_url": "/catalog_pages/outdoor/page_4.jpg"
+      },
+      {
+          "model": "SL-KLIGHT-8W",
+          "name": "8W K-Light Modern Geometric Elevation Sconce",
+          "wattage": "8W High-Efficiency LED",
+          "capacity": "720 Lumens 3000K / 4000K",
+          "dimensions": "160 x 100 x 50 mm",
+          "ledSpec": "Multi-Faceted Aluminum Reflector",
+          "specialFeature": "Geometric Light Accent with Dual-Side Architectural Silhouette",
+          "image_url": "/catalog_pages/outdoor/page_4.jpg"
+      }
+  ],
+  "takeway-garden-spike-light-cob": [
+      {
+          "model": "SPK-COB-5W",
+          "name": "5W Mini Garden Spike Spotlight",
+          "wattage": "5W COB",
+          "capacity": "450 Lumens (3000K / 4000K / 6000K)",
+          "dimensions": "Dia 42mm x H 80mm (Spike: 160mm)",
+          "ledSpec": "COB High Intensity LED, 24° Beam",
+          "specialFeature": "Heavy Aluminum Ground Stake, 360° Rotatable Swivel Bracket, IP65",
+          "image_url": "/catalog_pages/outdoor/page_5.jpg"
+      },
+      {
+          "model": "SPK-COB-10W",
+          "name": "10W Landscape Spike Spotlight",
+          "wattage": "10W COB",
+          "capacity": "950 Lumens (3000K Warm White / Green)",
+          "dimensions": "Dia 60mm x H 110mm (Spike: 160mm)",
+          "ledSpec": "High Output Bridgelux COB, 36° Beam",
+          "specialFeature": "IP65 Weatherproof Sealed Body, Perfect for Medium Trees & Palm Uplighting",
+          "image_url": "/catalog_pages/outdoor/page_5.jpg"
+      },
+      {
+          "model": "SPK-COB-20W",
+          "name": "20W Heavy-Duty Tree & Architecture Spike Luminaire",
+          "wattage": "20W COB",
+          "capacity": "1900 Lumens (3000K / 4000K / RGB)",
+          "dimensions": "Dia 75mm x H 140mm (Spike: 210mm)",
+          "ledSpec": "Citizen High-Power COB, 45° Optical Lens",
+          "specialFeature": "Deep Recessed Snoot with Anti-Glare Honeycomb Louver Option",
+          "image_url": "/catalog_pages/outdoor/page_5.jpg"
+      }
+  ],
+  "takeway-burial-facade-lights": [
+      {
+          "model": "BL-INGROUND-3W",
+          "name": "3W Stainless In-Ground Walkway Burial Light",
+          "wattage": "3W LED",
+          "capacity": "250 Lumens 3000K",
+          "dimensions": "Dia 65mm x Depth 75mm",
+          "ledSpec": "High-Power Cree LED with 30° Lens",
+          "specialFeature": "SS304 Front Cover, 8mm Toughened Glass, 2000kg Drive-Over Rating, IP67",
+          "image_url": "/catalog_pages/outdoor/page_6.jpg"
+      },
+      {
+          "model": "BL-INGROUND-9W",
+          "name": "9W High-Power Architectural Burial Light",
+          "wattage": "9W (3x 3W LEDs)",
+          "capacity": "810 Lumens 3000K / RGB",
+          "dimensions": "Dia 120mm x Depth 95mm",
+          "ledSpec": "Tri-LED Optical Cluster, 15° / 30° / 45°",
+          "specialFeature": "ABS Plastic Pre-Burial Mounting Sleeve Included, IP68 Waterproof Glands",
+          "image_url": "/catalog_pages/outdoor/page_6.jpg"
+      },
+      {
+          "model": "BL-INGROUND-12W",
+          "name": "12W Drive-Over Facade & Column In-Ground Light",
+          "wattage": "12W LED Matrix",
+          "capacity": "1150 Lumens 3000K / 4000K / 6000K",
+          "dimensions": "Dia 160mm x Depth 110mm",
+          "ledSpec": "Multi-Chip COB/SMD Array with Precision Reflector",
+          "specialFeature": "Drive-over resistant up to 5000kg, Pressure-Diecast Aluminum & Stainless Face",
+          "image_url": "/catalog_pages/outdoor/page_6.jpg"
+      }
+  ],
+  "takeway-underwater-pool-fountain-lights": [
+      {
+          "model": "UW-POOL-6W-SS",
+          "name": "6W SS316 Surface Mount Swimming Pool Light",
+          "wattage": "6W (12V AC/DC Safe Voltage)",
+          "capacity": "500 Lumens (3000K / Cool Blue)",
+          "dimensions": "Dia 120mm x Depth 25mm",
+          "ledSpec": "Epistar SMD2835 High Efficiency",
+          "specialFeature": "Full Marine Grade SS316 Casing, Resin-Filled IP68 Waterproofing",
+          "image_url": "/catalog_pages/outdoor/page_7.jpg"
+      },
+      {
+          "model": "UW-FOUNTAIN-12W-DMX",
+          "name": "12W Center-Hole Fountain Nozzle Luminaire",
+          "wattage": "12W RGB / RGBW (24V DC)",
+          "capacity": "900 Lumens Dynamic Multi-Color",
+          "dimensions": "Dia 160mm x Center Hole 38mm",
+          "ledSpec": "12 Pcs 1W High Power RGB LEDs",
+          "specialFeature": "Center Water Jet Nozzle Mounting, DMX512 Musical Fountain Synchronous",
+          "image_url": "/catalog_pages/outdoor/page_7.jpg"
+      },
+      {
+          "model": "UW-POOL-18W-RGB",
+          "name": "18W Heavy-Duty Submersible Pool & Water Body Light",
+          "wattage": "18W (12V AC/DC)",
+          "capacity": "1600 Lumens Full RGB Color Changing",
+          "dimensions": "Dia 220mm x Depth 35mm",
+          "ledSpec": "High Lumen Sealed Submersible Cluster",
+          "specialFeature": "Remote Controlled RGB Synchronized Modes, IP68 100% Submersible to 5m",
+          "image_url": "/catalog_pages/outdoor/page_7.jpg"
+      }
+  ],
+  "takeway-stadium-high-mast-tower-light": [
+      {
+          "model": "STFL-300W",
+          "name": "300W Stadium & High Mast Tower Floodlight",
+          "wattage": "300W (Modular Dual-Head)",
+          "capacity": "45,000 Lumens (150 lm/W)",
+          "dimensions": "420 x 360 x 130 mm",
+          "ledSpec": "Lumileds 5050 SMD, 15°/30°/60° Optical Lenses",
+          "specialFeature": "Mean Well / Inventronics Driver, 10kV Surge Protection, Rotatable Modules",
+          "image_url": "/catalog_pages/outdoor/page_8.jpg"
+      },
+      {
+          "model": "STFL-600W",
+          "name": "600W Stadium High-Power Tower Floodlight",
+          "wattage": "600W (Modular Quad-Head)",
+          "capacity": "90,000 Lumens (150 lm/W)",
+          "dimensions": "650 x 540 x 145 mm",
+          "ledSpec": "Lumileds 5050 Ultra-High Output Array, CRI>80 for HD TV Broadcast",
+          "specialFeature": "Die-Cast Fin Heatsink with Wind-Tunnel Aerodynamics, 20kV Surge Arrestor",
+          "image_url": "/catalog_pages/outdoor/page_8.jpg"
+      }
+  ],
+  "takeway-commercial-motion-sensor-flood-light": [
+      {
+          "model": "FL-PIR-50W",
+          "name": "50W Slim Commercial Motion Sensor Floodlight",
+          "wattage": "50W",
+          "capacity": "5,000 Lumens (6500K Daylight / 4000K)",
+          "dimensions": "210 x 160 x 40 mm",
+          "ledSpec": "San'an 2835 High Efficiency SMD Array",
+          "specialFeature": "Integrated PIR Microwave Sensor (Sens, Time, Lux Trimmers), IP65",
+          "image_url": "/catalog_pages/outdoor/page_9.jpg"
+      },
+      {
+          "model": "FL-PIR-100W",
+          "name": "100W Perimeter Security Sensor Floodlight",
+          "wattage": "100W",
+          "capacity": "10,500 Lumens",
+          "dimensions": "270 x 210 x 45 mm",
+          "ledSpec": "Bridgelux High Lumen SMD, 120° Wide Flood Angle",
+          "specialFeature": "Automatic Day/Night Dusk-to-Dawn Switch with 8-12m Detection Range",
+          "image_url": "/catalog_pages/outdoor/page_9.jpg"
+      },
+      {
+          "model": "FL-SLIM-200W",
+          "name": "200W Commercial Heavy-Duty LED Floodlight",
+          "wattage": "200W",
+          "capacity": "22,000 Lumens (110 lm/W)",
+          "dimensions": "360 x 280 x 55 mm",
+          "ledSpec": "Industrial Array with Tempered Optical Diffuser",
+          "specialFeature": "Heavy Industrial Housing, Corrosive Powder Coat, IP66 High-Grade Seal",
+          "image_url": "/catalog_pages/outdoor/page_9.jpg"
+      }
+  ],
+  "takeway-industrial-ufo-high-bay-light": [
+      {
+          "model": "UFO-HB-100W",
+          "name": "100W Industrial UFO LED High Bay",
+          "wattage": "100W",
+          "capacity": "14,000 Lumens (140 lm/W)",
+          "dimensions": "Dia 260mm x H 115mm",
+          "ledSpec": "Philips Lumileds 3030 SMD, 90°/120° Polycarbonate Lens",
+          "specialFeature": "Die-Cast Pure Aluminum Graphene Heatsink, Eye Bolt & Safety Wire Mount",
+          "image_url": "/catalog_pages/outdoor/page_10.jpg"
+      },
+      {
+          "model": "UFO-HB-150W",
+          "name": "150W Industrial UFO LED High Bay",
+          "wattage": "150W",
+          "capacity": "21,000 Lumens (140 lm/W)",
+          "dimensions": "Dia 310mm x H 125mm",
+          "ledSpec": "High Efficiency 3030 SMD, CRI>80, 5000K / 6500K",
+          "specialFeature": "Isolated Constant Current Driver, 6kV Surge Suppression, IP65 Dust & Washdown",
+          "image_url": "/catalog_pages/outdoor/page_10.jpg"
+      },
+      {
+          "model": "UFO-HB-200W",
+          "name": "200W Ultra-High Output Industrial UFO High Bay",
+          "wattage": "200W",
+          "capacity": "28,000 Lumens (140 lm/W)",
+          "dimensions": "Dia 360mm x H 135mm",
+          "ledSpec": "Premium Industrial Grade SMD Array",
+          "specialFeature": "High Bay & Warehouse Ceiling Mounting (8m to 16m Heights), IP65 Industrial",
+          "image_url": "/catalog_pages/outdoor/page_10.jpg"
+      }
+  ],
+  "takeway-dolphin-street-light-series": [
+      {
+          "model": "SL-DOLPHIN-30W",
+          "name": "30W Dolphin Aerodynamic LED Street Light",
+          "wattage": "30W",
+          "capacity": "3,600 Lumens (120 lm/W)",
+          "dimensions": "380 x 140 x 60 mm (Pole Spigot: 40-50mm)",
+          "ledSpec": "Bridgelux High Lumen SMD, Batwing Optical Lens Type II/III",
+          "specialFeature": "Aerodynamic Dolphin Fin Aluminum Body, IP66, Self-Cleaning Rain Channel",
+          "image_url": "/catalog_pages/outdoor/page_11.jpg"
+      },
+      {
+          "model": "SL-DOLPHIN-60W",
+          "name": "60W Dolphin Aerodynamic LED Street Light",
+          "wattage": "60W",
+          "capacity": "7,800 Lumens (130 lm/W)",
+          "dimensions": "460 x 175 x 65 mm (Pole Spigot: 50-60mm)",
+          "ledSpec": "High Performance 3030 SMD, Uniform Road Surface Luminance",
+          "specialFeature": "Pressure Die-Cast Aluminum, Tool-Less Driver Compartment Access",
+          "image_url": "/catalog_pages/outdoor/page_11.jpg"
+      },
+      {
+          "model": "SL-DOLPHIN-100W",
+          "name": "100W Municipal Roadway LED Street Light",
+          "wattage": "100W",
+          "capacity": "13,500 Lumens (135 lm/W)",
+          "dimensions": "540 x 210 x 70 mm (Pole Spigot: 60mm)",
+          "ledSpec": "Lumileds 3030 Array with Batwing Distribution Lens",
+          "specialFeature": "10kV Built-In Surge Protection Device (SPD), IP66 / IK08 Impact Rating",
+          "image_url": "/catalog_pages/outdoor/page_11.jpg"
+      },
+      {
+          "model": "SL-DOLPHIN-150W",
+          "name": "150W Highway & Expressway LED Street Light",
+          "wattage": "150W",
+          "capacity": "20,500 Lumens (135 lm/W)",
+          "dimensions": "620 x 250 x 75 mm (Pole Spigot: 60mm)",
+          "ledSpec": "Multi-Module High Power Array",
+          "specialFeature": "Designed for 8m to 12m Municipal Poles and Multi-Lane Expressways",
+          "image_url": "/catalog_pages/outdoor/page_11.jpg"
+      }
+  ],
+  "takeway-tri-proof-industrial-tube-light": [
+      {
+          "model": "TP-2FT-20W",
+          "name": "2ft 20W IP65 Industrial Tri-Proof Luminaire",
+          "wattage": "20W",
+          "capacity": "2,400 Lumens (120 lm/W)",
+          "dimensions": "600 x 75 x 65 mm",
+          "ledSpec": "High Density SMD Strip, Opal Polycarbonate Diffuser",
+          "specialFeature": "Waterproof, Dustproof, Corrosion-Proof (IP65/IK08), Stainless Clips",
+          "image_url": "/catalog_pages/outdoor/page_14.jpg"
+      },
+      {
+          "model": "TP-4FT-40W",
+          "name": "4ft 40W Heavy-Duty Tri-Proof Batten Light",
+          "wattage": "40W",
+          "capacity": "4,800 Lumens (120 lm/W)",
+          "dimensions": "1200 x 75 x 65 mm",
+          "ledSpec": "Dual Row High-Efficiency SMD Strip, 4000K / 6500K",
+          "specialFeature": "Through-Wiring Linkable Design for Continuous Assembly Line Runs",
+          "image_url": "/catalog_pages/outdoor/page_14.jpg"
+      },
+      {
+          "model": "TP-4FT-60W",
+          "name": "4ft 60W High-Lumen Workshop Tri-Proof Luminaire",
+          "wattage": "60W",
+          "capacity": "7,200 Lumens (120 lm/W)",
+          "dimensions": "1200 x 85 x 75 mm",
+          "ledSpec": "Industrial Power Grade LED Driver & SMD Core",
+          "specialFeature": "Chemical & Vapor Resistant Polycarbonate Housing for Processing Plants",
+          "image_url": "/catalog_pages/outdoor/page_14.jpg"
+      }
+  ],
+  "takeway-magnetic-track-light-system": [
+      {
+          "model": "MAG-TRACK-REC-2M",
+          "name": "2-Meter Recessed Magnetic Track Rail (48V Safe DC)",
+          "wattage": "Max 150W per Run (48V DC)",
+          "capacity": "Integrated Copper Busbar System",
+          "dimensions": "2000 x 70 x 50 mm",
+          "specialFeature": "Trimless Recessed Architectural Channel with Tool-Free Magnetic Click-In",
+          "image_url": "/catalog_pages/indoor/page_4.jpg"
+      },
+      {
+          "model": "MAG-LINEAR-12W",
+          "name": "12W Magnetic Diffused Linear Light Module",
+          "wattage": "12W",
+          "capacity": "1,080 Lumens (3000K / 4000K)",
+          "dimensions": "300 x 22 x 45 mm",
+          "ledSpec": "Anti-Glare Frosted Opal Diffuser, CRI 92",
+          "specialFeature": "48V Low-Voltage Safe Insertion, Instant Repositioning Anywhere Along Track",
+          "image_url": "/catalog_pages/indoor/page_4.jpg"
+      },
+      {
+          "model": "MAG-SPOT-10W",
+          "name": "10W Magnetic Focus Spotlight (360° Swivel)",
+          "wattage": "10W COB",
+          "capacity": "900 Lumens (3000K Warm White)",
+          "dimensions": "Dia 40mm x H 90mm",
+          "ledSpec": "Bridgelux High CRI COB, 24° Narrow Accent Beam",
+          "specialFeature": "Multi-Axis Swivel for Accent Wall Art & Retail Display Highlighting",
+          "image_url": "/catalog_pages/indoor/page_4.jpg"
+      },
+      {
+          "model": "MAG-PENDANT-12W",
+          "name": "12W Magnetic Suspended Cylinder Pendant Module",
+          "wattage": "12W",
+          "capacity": "1,050 Lumens (3000K Warm White)",
+          "dimensions": "Dia 50mm x H 200mm (Wire 1.2m)",
+          "ledSpec": "Precision Optical Lens with Matte Metallic Finished Cylinder",
+          "specialFeature": "Dining Island & Reception Counter Hanging Accent over 48V Magnetic Track",
+          "image_url": "/catalog_pages/indoor/page_4.jpg"
+      }
+  ],
+  "takeway-linear-office-hanging-luminaire": [
+      {
+          "model": "LIN-HANG-36W",
+          "name": "36W 4ft Suspended Office Linear Luminaire",
+          "wattage": "36W",
+          "capacity": "3,960 Lumens (110 lm/W)",
+          "dimensions": "1200 x 50 x 70 mm",
+          "ledSpec": "Samsung 2835 SMD, CRI 85+, 4000K Natural White",
+          "specialFeature": "Anodized Architectural Aluminum Profile, Micro-Prismatic Anti-Glare Diffuser",
+          "image_url": "/catalog_pages/indoor/page_8.jpg"
+      },
+      {
+          "model": "LIN-HANG-48W-UD",
+          "name": "48W Up & Down Direct/Indirect Linear Luminaire",
+          "wattage": "48W (36W Down + 12W Upward Glow)",
+          "capacity": "5,200 Lumens Dual Emission",
+          "dimensions": "1200 x 60 x 75 mm",
+          "ledSpec": "Dual Independent Optical Diffusers for Ceiling Ambient & Task Desk",
+          "specialFeature": "UGR<19 Unified Glare Rating for Corporate Offices & Ergonomic Workspaces",
+          "image_url": "/catalog_pages/indoor/page_8.jpg"
+      }
+  ],
+  "takeway-backlit-commercial-panel-light": [
+      {
+          "model": "PNL-2X2-36W",
+          "name": "36W 2x2ft Backlit Commercial LED Panel",
+          "wattage": "36W",
+          "capacity": "3,960 Lumens (110 lm/W)",
+          "dimensions": "595 x 595 x 30 mm",
+          "ledSpec": "Direct Backlit Optical Lens Array, Non-Yellowing PMMA Diffuser",
+          "specialFeature": "Ultra-Slim Frame, Flicker-Free Constant Current Isolated Driver",
+          "image_url": "/catalog_pages/indoor/page_12.jpg"
+      },
+      {
+          "model": "PNL-2X2-48W",
+          "name": "48W 2x2ft High-Output Backlit Panel Light",
+          "wattage": "48W",
+          "capacity": "5,280 Lumens (110 lm/W)",
+          "dimensions": "595 x 595 x 30 mm",
+          "ledSpec": "High Lumen Density SMD Matrix, 6500K Cool Daylight",
+          "specialFeature": "Seamless Fit for Standard Armstrong & Gypsum False Ceilings",
+          "image_url": "/catalog_pages/indoor/page_12.jpg"
+      },
+      {
+          "model": "PNL-1X1-18W",
+          "name": "18W 1x1ft Compact Backlit Panel Light",
+          "wattage": "18W",
+          "capacity": "1,800 Lumens (4000K / 6500K)",
+          "dimensions": "295 x 295 x 28 mm",
+          "ledSpec": "Evenly Spaced Lens SMD Array",
+          "specialFeature": "Ideal for Restrooms, Hallways, Elevator Foyers and Compact Offices",
+          "image_url": "/catalog_pages/indoor/page_12.jpg"
+      }
+  ],
+  "takeway-cob-recessed-downlight-series": [
+      {
+          "model": "DL-COB-7W",
+          "name": "7W Deep Anti-Glare Recessed COB Downlight",
+          "wattage": "7W COB",
+          "capacity": "630 Lumens (3000K / 4000K / 6000K)",
+          "dimensions": "Cutout: Dia 65mm | Outer: Dia 80mm",
+          "ledSpec": "Bridgelux High CRI COB, 24° Optical Baffle",
+          "specialFeature": "Deep Recessed Snoot Design with UGR<16 Visual Comfort",
+          "image_url": "/catalog_pages/indoor/page_16.jpg"
+      },
+      {
+          "model": "DL-COB-15W",
+          "name": "15W Commercial Recessed Downlight",
+          "wattage": "15W COB",
+          "capacity": "1,450 Lumens (3000K / 4000K)",
+          "dimensions": "Cutout: Dia 95mm | Outer: Dia 110mm",
+          "ledSpec": "Citizen High-Output COB with Faceted Aluminum Reflector",
+          "specialFeature": "Die-Cast Heat Sink with Passive Thermal Cooling Fins",
+          "image_url": "/catalog_pages/indoor/page_16.jpg"
+      },
+      {
+          "model": "DL-COB-30W",
+          "name": "30W High-Lumen Retail Downlight & Spotlight",
+          "wattage": "30W COB",
+          "capacity": "3,100 Lumens (CRI>90)",
+          "dimensions": "Cutout: Dia 125mm | Outer: Dia 145mm",
+          "ledSpec": "High CRI 95 Retail Grade COB for Apparel & Jewelry Showrooms",
+          "specialFeature": "Adjustable Gimbal Tilt Angle up to 30° for Directional Wall Grazing",
+          "image_url": "/catalog_pages/indoor/page_16.jpg"
+      }
+  ],
+  "takeway-silicon-neon-flex-profile": [
+      {
+          "model": "NEON-TOP-BEND-12W",
+          "name": "Top-Bending Architectural Silicone Neon Flex (12W/m)",
+          "wattage": "12W per Meter (24V DC)",
+          "capacity": "1,000 Lumens/m Dotless Homogeneous Glow",
+          "dimensions": "Width 12mm x Height 12mm (Roll: 5m / 10m)",
+          "ledSpec": "120 LEDs/m SMD2835 High Density, 3000K / 4000K / RGB",
+          "specialFeature": "Food-Grade Silicone, IP67 Waterproof, UV Resistant, No Yellowing",
+          "image_url": "/catalog_pages/indoor/page_20.jpg"
+      },
+      {
+          "model": "NEON-SIDE-BEND-16W",
+          "name": "Side-Bending 3D Contour Neon Flex (16W/m)",
+          "wattage": "16W per Meter (24V DC)",
+          "capacity": "1,350 Lumens/m Continuous Light Ribbon",
+          "dimensions": "Width 16mm x Height 15mm",
+          "ledSpec": "Dense SMD Array with Diffusion Barrier",
+          "specialFeature": "Bends Along Curved Ceilings, Columns, and Wave Facades Seamlessly",
+          "image_url": "/catalog_pages/indoor/page_20.jpg"
+      },
+      {
+          "model": "ALU-PROFILE-CORNER",
+          "name": "Corner & Recessed Anodized Aluminum LED Channel System",
+          "wattage": "Compatible with 8mm to 20mm LED Strips",
+          "capacity": "Includes Frosted PMMA Diffuser",
+          "dimensions": "Lengths: 2m and 3m Rails",
+          "specialFeature": "Architectural Trimless Plaster-In and 45° Corner Light Profiles",
+          "image_url": "/catalog_pages/indoor/page_20.jpg"
+      }
+  ],
+  "takeway-smart-cabinet-sensor-profile": [
+      {
+          "model": "SEN-WARDROBE-PIR",
+          "name": "Smart Wardrobe Door PIR / Proximity Sensor Controller",
+          "wattage": "12V / 24V DC Max 60W Load",
+          "capacity": "Door Open Auto-On / Door Closed Auto-Off",
+          "dimensions": "Dia 10mm Miniature Probe x Cable 1.5m",
+          "specialFeature": "Instant Response Infrared Door Trigger, Recessed Flush Fit in Cabinet Edge",
+          "image_url": "/catalog_pages/indoor/page_24.jpg"
+      },
+      {
+          "model": "SEN-HAND-SWEEP",
+          "name": "Touchless Hand-Sweep Motion Dimmer Sensor",
+          "wattage": "12V / 24V DC Max 60W Load",
+          "capacity": "Sweep to Toggle On/Off, Hover Hand to Smoothly Dim",
+          "dimensions": "35 x 10 x 8 mm Inline Sensor",
+          "specialFeature": "Hygienic Hand-Sweep Activation for Kitchen Cabinets & Bathroom Vanities",
+          "image_url": "/catalog_pages/indoor/page_24.jpg"
+      },
+      {
+          "model": "SEN-STAIR-CASCADE",
+          "name": "16-32 Step Cascading Staircase Sensor Controller Kit",
+          "wattage": "12V / 24V DC (Supports up to 32 Steps)",
+          "capacity": "Sequential Step-by-Step Cascading Flow Lighting",
+          "dimensions": "Central Control Box + Dual Top/Bottom PIR Sensors",
+          "specialFeature": "Motion-Triggered Step Follower with Adjustable Speed and Daylight Cutoff",
+          "image_url": "/catalog_pages/indoor/page_24.jpg"
+      }
+  ],
+  "takeway-smart-solar-novaboard-pillar": [
+      {
+          "model": "NOVABOARD-120W-WW",
+          "name": "120W Smart Solar Novaboard Interactive Pillar",
+          "wattage": "120W Monocrystalline Wrap Panel",
+          "capacity": "800Wh LiFePO4 Energy Storage",
+          "dimensions": "Height 2800mm x Dia 350mm Column",
+          "ledSpec": "30W 360° Circular LED Lantern + Downward Accent Glow",
+          "solarPanel": "120W High Efficiency Cylindrical Flexible Solar Integration",
+          "battery": "12.8V 60Ah LiFePO4 Long-Cycle Battery",
+          "outputs": "Dual USB Fast Charge (Type-A & Type-C QC3.0), Qi Wireless Charging Shelf",
+          "specialFeature": "Integrated Planter Base, Waste Segregation Bin, Public Wi-Fi Hotspot Option",
+          "image_url": "/catalog_pages/solar_cooler/page_3.jpg"
+      },
+      {
+          "model": "SMART-PILLAR-10FT",
+          "name": "10ft Smart Solar Civic Information Pillar",
+          "wattage": "180W Integrated Solar Structure",
+          "capacity": "1200Wh LiFePO4 Energy Storage",
+          "dimensions": "Height 3000mm x Width 450mm Column",
+          "ledSpec": "40W High Lumen Smart Civic Area Light",
+          "solarPanel": "180W Monocrystalline Multi-Faceted Array",
+          "battery": "12.8V 100Ah LiFePO4 Battery",
+          "outputs": "4x USB Ports, 2x Wireless Fast Pads, Environmental Air Quality Sensor",
+          "specialFeature": "Digital Signage Mounting Bay, Emergency SOS Call Button, CCTV Pod",
+          "image_url": "/catalog_pages/solar_cooler/page_4.jpg"
+      }
+  ],
+  "takeway-smart-solar-garden-lounge-utility-pod": [
+      {
+          "model": "LOUNGE-BENCH-250W",
+          "name": "Smart Solar Garden Lounge Bench with Active Cooling",
+          "wattage": "250W Bifacial Solar Canopy",
+          "capacity": "1000Wh LiFePO4 Energy Bank",
+          "dimensions": "Length 2000mm x Width 800mm x Canopy H 2200mm",
+          "ledSpec": "15W Warm Ambient Under-Seat & Canopy Reading Lights",
+          "solarPanel": "250W Bifacial Tempered Glass Solar Canopy",
+          "battery": "12.8V 80Ah LiFePO4 High Safety Battery",
+          "outputs": "4x USB-A/Type-C QC3.0, 2x Wireless Qi Induction Pads, 12V DC Port",
+          "specialFeature": "Built-in Active Evaporative Seat Cooler Fans, Ergonomic Weatherproof WPC Slats",
+          "image_url": "/catalog_pages/solar_cooler/page_5.jpg"
+      },
+      {
+          "model": "UTILITY-POD-500W",
+          "name": "500W Solar Shaded Utility Pod & Workstation",
+          "wattage": "500W Monocrystalline High-Yield Roof",
+          "capacity": "2400Wh LiFePO4 Battery Bank",
+          "dimensions": "2400 x 1800 x 2400 mm",
+          "ledSpec": "30W Overhead LED Task & Area Diffuser",
+          "solarPanel": "500W Monocrystalline Photovoltaic Array",
+          "battery": "25.6V 100Ah LiFePO4 Battery Pack",
+          "outputs": "2x AC 230V 500W Pure Sine Outlets for Laptops, 6x USB Charging Ports",
+          "specialFeature": "Integrated Outdoor Desk Space, Bluetooth Audio Speakers, Free Standing Base",
+          "image_url": "/catalog_pages/solar_cooler/page_6.jpg"
+      }
+  ],
+  "takeway-smart-solar-patio-umbrella-hut": [
+      {
+          "model": "UMBRELLA-SOLAR-300W",
+          "name": "300W Smart Solar Heavy-Duty Patio Umbrella",
+          "wattage": "300W Flexible Solar Array",
+          "capacity": "600Wh LiFePO4 Battery Core",
+          "dimensions": "Canopy Dia 3000mm x Height 2600mm",
+          "ledSpec": "Rib-Mounted Warm White LED Illumination",
+          "solarPanel": "300W Lightweight CIGS/Mono Flexible Petals",
+          "battery": "12.8V 50Ah LiFePO4 Internal Mast Pack",
+          "outputs": "4x Fast USB Ports, 2x Qi Wireless Pads on Base Table",
+          "specialFeature": "360° Cantilever Crank Opening, Granite Counterweight Base with Wheels",
+          "image_url": "/catalog_pages/solar_cooler/page_7.jpg"
+      },
+      {
+          "model": "PARK-HUT-500W",
+          "name": "500W Community Park Gazebo Hut with Solar Roof",
+          "wattage": "500W Rigid Solar Canopy",
+          "capacity": "2000Wh LiFePO4 Storage",
+          "dimensions": "3000 x 2500 x 2700 mm (Seats 6 to 8 People)",
+          "ledSpec": "25W Ceiling Downlight + Solar Perimeter Accent",
+          "solarPanel": "500W Heavy-Duty Monocrystalline Panels",
+          "battery": "25.6V 80Ah LiFePO4 Battery",
+          "outputs": "Multiple USB Quick Charge Ports + 230V Small Appliance Socket",
+          "specialFeature": "Powder-Coated Structural Steel Frame, Teak Wood Composite Seating Table",
+          "image_url": "/catalog_pages/solar_cooler/page_8.jpg"
+      }
+  ],
+  "takeway-smart-solar-transit-bus-stop": [
+      {
+          "model": "BUS-SHELTER-1350W",
+          "name": "Smart Solar Transit Bus Stop Shelter (1350W Roof)",
+          "wattage": "1350W Monocrystalline PV Roof",
+          "capacity": "4800Wh Industrial LiFePO4 Storage",
+          "dimensions": "Length 4500mm x Depth 2000mm x Height 2600mm",
+          "ledSpec": "50W LED Advertising Backlight + 30W Passenger Area Lighting",
+          "solarPanel": "1350W (3x 450W Mono Half-Cell Panels)",
+          "battery": "48V 100Ah LiFePO4 Heavy Cycle Battery",
+          "outputs": "8x Public USB Fast Chargers, 2x Qi Wireless Charging Shelves",
+          "specialFeature": "Digital Passenger Information Display (PID) Port, CCTV Dome, Emergency SOS Siren",
+          "image_url": "/catalog_pages/solar_cooler/page_9.jpg"
+      }
+  ],
+  "takeway-solar-hybrid-ev-charging-station": [
+      {
+          "model": "EV-SOLAR-STATION-11KW",
+          "name": "11kW Solar Hybrid Multi-Bay EV Charging Station",
+          "wattage": "11kW Solar Canopy + Grid Interactive",
+          "capacity": "15kWh - 30kWh Modular LiFePO4 BESS",
+          "dimensions": "Dual Vehicle Bay (6000 x 5000 mm)",
+          "ledSpec": "High Bay Canopy Lighting & Dynamic Charging Status Indicators",
+          "solarPanel": "11kW High-Efficiency Bifacial Solar Canopy",
+          "battery": "High-Voltage LFP Battery Storage System",
+          "outputs": "Dual 7.4kW / 11kW Type 2 AC EV Guns + DC Fast Option",
+          "specialFeature": "Integrated Commercial Touch Kiosk, RFID / UPI Payment Gateway, Cloud Telemetry",
+          "image_url": "/catalog_pages/solar_cooler/page_10.jpg"
+      }
+  ],
+  "takeway-modular-solar-prefab-security-cabin": [
+      {
+          "model": "CABIN-ECO-COOL-480W",
+          "name": "Modular Solar Pre-Fab Eco Cooling Security Cabin (6x4ft)",
+          "wattage": "480W Solar Panel",
+          "capacity": "2400Wh LiFePO4 Battery Bank",
+          "dimensions": "1800 x 1200 x 2400 mm (6x4ft)",
+          "ledSpec": "15W Interior Task LED + 20W Exterior Security Floodlight",
+          "solarPanel": "480W Monocrystalline Solar Panel",
+          "battery": "12.8V 200Ah LiFePO4 Battery",
+          "outputs": "Internal 230V Pure Sine Socket, 12V DC Outlets, Dual USB Ports",
+          "specialFeature": "Passive & Active Evaporative Eco-Cooling System, Double Skin Insulated Wall Panels",
+          "image_url": "/catalog_pages/solar_cooler/page_11.jpg"
+      },
+      {
+          "model": "CABIN-ECO-COOL-960W",
+          "name": "Large Modular Solar Security Post Cabin (8x6ft)",
+          "wattage": "960W Solar Array (2x 480W)",
+          "capacity": "4800Wh LiFePO4 Battery Bank",
+          "dimensions": "2400 x 1800 x 2400 mm (8x6ft)",
+          "ledSpec": "Dual Interior LED Luminaires + 360° Exterior Sentry Floodlights",
+          "solarPanel": "960W Monocrystalline Array",
+          "battery": "25.6V 200Ah LiFePO4 Battery",
+          "outputs": "Multiple 230V AC Plugs for Computer, Radio & Air Cooler",
+          "specialFeature": "High-grade Thermal PUF Sandwich Panels, Toughened Tinted Windows, Steel Lock Door",
+          "image_url": "/catalog_pages/solar_cooler/page_11.jpg"
+      }
+  ],
+  "takeway-army-modular-solar-sentry-checkpost": [
+      {
+          "model": "ARMY-SENTRY-POST-480W",
+          "name": "Indian Army High-Altitude Modular Solar Sentry Checkpost",
+          "wattage": "480W Extreme Weather Solar Panel",
+          "capacity": "2400Wh Cold-Resistant LiFePO4 (Operates down to -30°C)",
+          "dimensions": "1800 x 1800 x 2400 mm High-Altitude Spec",
+          "ledSpec": "Military Grade Red/White Switchable Interior Light + 30W High-Mast Floodlight",
+          "solarPanel": "480W Reinforced Snow-Shedding High-Angle Solar Array",
+          "battery": "LiFePO4 with Internal Thermal Management & Heating Jacket",
+          "outputs": "VHF/UHF Tactical Radio Charging Port, Handheld Spotlight Port, 230V AC Socket",
+          "specialFeature": "Ballistic & Severe Cold Insulation, Quick Deployable Modular Camouflage Shell",
+          "image_url": "/catalog_pages/army_camp/page_3.jpg"
+      },
+      {
+          "model": "ARMY-OBSERVATION-TOWER",
+          "name": "Forward Observation Post Solar Power & Comms Shelter",
+          "wattage": "960W Solar Array (Bifacial)",
+          "capacity": "4800Wh Military Grade LiFePO4",
+          "dimensions": "2400 x 2400 x 2600 mm",
+          "ledSpec": "Blackout-Compliant Tactical Lighting System",
+          "solarPanel": "960W Anti-Glare Matte Solar Panels",
+          "battery": "24V 200Ah Ruggedized Battery Bank",
+          "outputs": "Multiple Military Communication Terminals & Radar Supply Outlets",
+          "specialFeature": "Tested for Siachen / Ladakh High-Altitude Low-Pressure Extreme Snow Conditions",
+          "image_url": "/catalog_pages/army_camp/page_4.jpg"
+      }
+  ],
+  "takeway-army-solar-infrastructure-conversion-kit": [
+      {
+          "model": "ARMY-KIT-500W-PLUG",
+          "name": "500W Army Camp Plug-and-Play Solar Conversion Kit",
+          "wattage": "500W Foldable / Quick-Mount Solar Array",
+          "capacity": "1200Wh Ruggedized LiFePO4 Energy Box",
+          "dimensions": "Portable Pelican Style Field Transport Case",
+          "ledSpec": "4x 10W Daisy-Chained Camp Tent LED Lamps with Carabiners",
+          "solarPanel": "500W High Efficiency Foldable Military Grade PV Array",
+          "battery": "12V 100Ah LiFePO4 Integrated Charge Controller",
+          "outputs": "4x 12V DC Sockets, 4x Military Fast USBs, 1x 230V 500W Pure Sine Outlet",
+          "specialFeature": "Converts Any Field Tent or Bunker into 24/7 Self-Sufficient Powered Outpost in 15 Minutes",
+          "image_url": "/catalog_pages/army_camp/page_6.jpg"
+      },
+      {
+          "model": "ARMY-KIT-1000W-COMMAND",
+          "name": "1000W Field Command & Medical Tent Solar Conversion Kit",
+          "wattage": "1000W Solar Photovoltaic Generation",
+          "capacity": "2400Wh Heavy-Duty LiFePO4 Energy Storage",
+          "dimensions": "Dual Man-Portable Shock-Mounted Transit Cases",
+          "ledSpec": "8x 15W High CRI Surgical / Command Map Worklights",
+          "solarPanel": "1000W Rapid Deploy Frameless Panels",
+          "battery": "24V 100Ah LiFePO4 Energy Storage",
+          "outputs": "Multiple 230V Pure Sine Outlets for Medical Fridges, Drones, Satellite Radios",
+          "specialFeature": "Zero Acoustic Noise (Silent Sentinel), Completely Eliminates Night DG Smoke & Sound",
+          "image_url": "/catalog_pages/army_camp/page_7.jpg"
+      }
+  ],
+  "takeway-army-hybrid-solar-inverter-dgset": [
+      {
+          "model": "ARMY-HYBRID-ESS-2KVA",
+          "name": "2kVA Defense Hybrid Solar-DG Microgrid Controller & ESS",
+          "wattage": "2000W Pure Sine Wave (Peak 4000W)",
+          "capacity": "3840Wh LiFePO4 Extended Storage",
+          "dimensions": "550 x 380 x 620 mm Wheels & Tow Handle",
+          "solarPanel": "Supports Up to 2000W Solar PV Input (MPPT 60-150V)",
+          "battery": "48V 80Ah Military Grade LiFePO4",
+          "outputs": "2x 230V 16A Industrial Sockets, Auto DG Generator Start/Stop Signal Link",
+          "specialFeature": "Auto-Prioritizes Solar -> Battery -> DG Set; Reduces Diesel Consumption by over 65%",
+          "image_url": "/catalog_pages/army_camp/page_10.jpg"
+      },
+      {
+          "model": "ARMY-HYBRID-ESS-5KVA",
+          "name": "5kVA Tactical Battalion Hybrid Power Station",
+          "wattage": "5000W Continuous Pure Sine Wave",
+          "capacity": "7680Wh LiFePO4 High Capacity",
+          "dimensions": "680 x 480 x 750 mm Skid Mounted with Crane Lift Eyes",
+          "solarPanel": "Supports Up to 5000W Solar PV Input",
+          "battery": "48V 160Ah Heavy Armor Battery Pack",
+          "outputs": "Heavy-Duty IP67 Military Couplers, 3-Phase or High-Current Single Phase",
+          "specialFeature": "Ruggedized for Extreme Shock, Sandstorm, Sub-Zero Operation with Smart Remote Telemetry",
+          "image_url": "/catalog_pages/army_camp/page_12.jpg"
+      }
+  ]
 };

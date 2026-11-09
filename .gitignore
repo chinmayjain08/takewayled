@@ -55,5 +55,6 @@ verify.js
 test-actions.js
 scratch_analyze.js
 *.py
+Advance_Payment_Receipt_*.pdf
 
 

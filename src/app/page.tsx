@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import fs from 'fs';
+import path from 'path';
 import { supabase } from '@/lib/supabaseClient';
 import { Product } from '@/types/product';
 import ProductCard from '@/components/ProductCard';
@@ -19,6 +21,24 @@ import {
 
 export const revalidate = 60; // ISR cache revalidation
 
+function getLocalProducts(): Product[] {
+  try {
+    const filePath = path.join(process.cwd(), 'catalog_products.json');
+    if (fs.existsSync(filePath)) {
+      const fileData = fs.readFileSync(filePath, 'utf8');
+      const parsed = JSON.parse(fileData);
+      return parsed.map((p: any, idx: number) => ({
+        id: p.id || `local-${idx}-${p.slug}`,
+        created_at: p.created_at || '2026-10-01T00:00:00Z',
+        ...p,
+      }));
+    }
+  } catch (e) {
+    console.error('Error reading local catalog_products.json:', e);
+  }
+  return [];
+}
+
 async function getFeaturedProducts(): Promise<Product[]> {
   try {
     const { data, error } = await supabase
@@ -28,15 +48,17 @@ async function getFeaturedProducts(): Promise<Product[]> {
       .order('created_at', { ascending: false })
       .limit(9);
 
-    if (error) {
-      console.error('Error fetching featured products:', error.message);
-      return [];
+    if (!error && data && data.length > 0) {
+      return data;
     }
-    return data || [];
   } catch (err) {
     console.error('Database connection error in getFeaturedProducts:', err);
-    return [];
   }
+
+  // Fallback to local products
+  const local = getLocalProducts();
+  const featured = local.filter((p) => p.is_featured);
+  return featured.length > 0 ? featured.slice(0, 9) : local.slice(0, 9);
 }
 
 export default async function HomePage() {
@@ -158,7 +180,7 @@ export default async function HomePage() {
 
           {/* Card 2 */}
           <Link
-            href="/products?category=Solar%20CCTV%20Lights"
+            href="/products?category=Indoor%20Commercial%20Lighting"
             className="group relative rounded-2xl bg-zinc-900 border border-zinc-800 hover:border-amber-500/50 p-6 flex flex-col justify-between overflow-hidden transition-all duration-300 hover:shadow-amber-glow"
           >
             <div className="space-y-4">
@@ -167,21 +189,21 @@ export default async function HomePage() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-white group-hover:text-amber-400 transition-colors font-mono">
-                  Solar CCTV Surveillance
+                  Indoor Commercial Lighting
                 </h3>
                 <p className="mt-2 text-xs text-zinc-400 leading-relaxed">
-                  Integrated 4G/WiFi FHD PTZ cameras (Single & Triple-lens 15MP) combined with high-output solar flood and street lighting.
+                  Low-voltage 48V magnetic track lights, suspended linear office luminaires, 2x2 backlit panels, and deep COB downlights.
                 </p>
               </div>
             </div>
             <div className="pt-6 flex items-center text-xs font-mono text-amber-400 group-hover:underline">
-              Explore Solar CCTV →
+              Explore Indoor Catalogue →
             </div>
           </Link>
 
           {/* Card 3 */}
           <Link
-            href="/products?category=Solar%20Inverters%20%26%20ESS"
+            href="/products?category=Architectural%20%26%20Facade"
             className="group relative rounded-2xl bg-zinc-900 border border-zinc-800 hover:border-cyan-500/50 p-6 flex flex-col justify-between overflow-hidden transition-all duration-300 hover:shadow-cyan-glow"
           >
             <div className="space-y-4">
@@ -190,21 +212,21 @@ export default async function HomePage() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors font-mono">
-                  Portable ESS & Inverters
+                  Architectural & Facade
                 </h3>
                 <p className="mt-2 text-xs text-zinc-400 leading-relaxed">
-                  200W - 1200W pure sine wave energy storage power packs with LiFePO4 cells, 3x AC sockets, XT60 fast charging, and solar input.
+                  Linear wall washers with DMX512 color sequencing, IP68 burial uplights, underwater fountain fixtures, and stadium projectors.
                 </p>
               </div>
             </div>
             <div className="pt-6 flex items-center text-xs font-mono text-cyan-400 group-hover:underline">
-              Explore Solar Inverters →
+              Explore Outdoor Catalogue →
             </div>
           </Link>
 
           {/* Card 4 */}
           <Link
-            href="/products?category=Solar%20Post%20%26%20Landscape"
+            href="/products?category=Smart%20Solar%20Spaces"
             className="group relative rounded-2xl bg-zinc-900 border border-zinc-800 hover:border-emerald-500/50 p-6 flex flex-col justify-between overflow-hidden transition-all duration-300 hover:shadow-[0_0_25px_rgba(52,211,153,0.3)]"
           >
             <div className="space-y-4">
@@ -213,15 +235,15 @@ export default async function HomePage() {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-white group-hover:text-emerald-400 transition-colors font-mono">
-                  Landscape, Post & Bollards
+                  Smart Solar Spaces & Benches
                 </h3>
                 <p className="mt-2 text-xs text-zinc-400 leading-relaxed">
-                  360° UFO post-top luminaires, vintage filament bollards, flame torches, and expandable modular linear wall washers.
+                  Solar-powered cooler benches, transit bus shelters, EV charging plazas, modular pre-fab cabins, and military sentry posts.
                 </p>
               </div>
             </div>
             <div className="pt-6 flex items-center text-xs font-mono text-emerald-400 group-hover:underline">
-              Explore Landscape Lights →
+              Explore Smart Spaces →
             </div>
           </Link>
         </div>

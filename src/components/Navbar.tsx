@@ -11,13 +11,16 @@ export default function Navbar() {
   const pathname = usePathname();
 
   const categories = [
-    { name: 'Solar Street Lights', slug: 'Solar Street Lights', desc: '2W - 120W All-in-One, AERO & King Series' },
+    { name: 'Solar Street Lights', slug: 'Solar Street Lights', desc: '12W - 120W All-in-One, AERO & King Series' },
+    { name: 'Indoor Commercial Lighting', slug: 'Indoor Commercial Lighting', desc: 'Magnetic Tracks, Hanging Linears, Panels & COB Downlights' },
+    { name: 'Architectural & Facade', slug: 'Architectural & Facade', desc: 'Wall Washers, DMX512, Burial Lights & Column Projectors' },
+    { name: 'Commercial Floodlights', slug: 'Commercial Floodlights', desc: '50W - 600W Stadium Tower Projectors & Motion Sensor Floods' },
+    { name: 'Industrial High Bays', slug: 'Industrial High Bays', desc: '50W - 200W Compact UFO & Traditional Warehouse Luminaires' },
+    { name: 'Smart Solar Spaces', slug: 'Smart Solar Spaces', desc: 'Solar Benches, Garden Lounges, Bus Shelters & EV Stations' },
+    { name: 'Defence & Camp Solutions', slug: 'Defence & Camp Solutions', desc: 'Army Sentry Checkposts, Conversion Kits & Hybrid DG Mobile Power' },
     { name: 'Solar CCTV Surveillance', slug: 'Solar CCTV Lights', desc: '4G HD PTZ Cameras, Single & Multi-Lens Lights' },
     { name: 'Solar Inverters & ESS', slug: 'Solar Inverters & ESS', desc: '200W - 1200W Portable Pure Sine Wave LiFePO4' },
-    { name: 'Solar Panels & Fans', slug: 'Solar Panels', desc: 'Class-A Mono PV Modules & Pedestal Misting Fans' },
-    { name: 'Solar Floodlights', slug: 'Solar Floodlights', desc: '10W - 30W LENS, Sky Light & Foldable Models' },
-    { name: 'Garden, Post & Landscape', slug: 'Solar Post & Landscape', desc: '360° UFO Post, Vintage Bollards & Wall Washers' },
-    { name: 'Portable Camping Lights', slug: 'Portable Work Lights', desc: '100W Multi-Function Jobsite Lanterns & Fans' },
+    { name: 'Garden, Post & Landscape', slug: 'Solar Post & Landscape', desc: '360° UFO Post, Vintage Bollards & Spike Lights' },
   ];
 
   const isActive = (path: string) => pathname === path;
