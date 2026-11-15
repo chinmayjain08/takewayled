@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Zap, ChevronDown, Menu, X, ShieldCheck, Download, Lock } from 'lucide-react';
+import { Zap, ChevronDown, Menu, X, ShieldCheck, Download, Lock, Globe, Cpu } from 'lucide-react';
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -163,6 +163,30 @@ export default function Navbar() {
             </Link>
 
             <Link
+              href="/consulting"
+              className={`flex items-center px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                isActive('/consulting')
+                  ? 'text-cyan-400 bg-cyan-500/10'
+                  : 'text-zinc-300 hover:text-cyan-400 hover:bg-zinc-800/40'
+              }`}
+            >
+              <Cpu className="w-4 h-4 mr-1.5 opacity-70 text-cyan-400" />
+              Consulting
+            </Link>
+
+            <Link
+              href="/procurement"
+              className={`flex items-center px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                isActive('/procurement')
+                  ? 'text-amber-400 bg-amber-500/10'
+                  : 'text-zinc-300 hover:text-amber-400 hover:bg-zinc-800/40'
+              }`}
+            >
+              <Globe className="w-4 h-4 mr-1.5 opacity-70 text-amber-400" />
+              Global Procurement
+            </Link>
+
+            <Link
               href="/contact"
               className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                 isActive('/contact')
@@ -232,6 +256,20 @@ export default function Navbar() {
             className="block px-3 py-2 rounded-md text-base font-medium text-amber-400 hover:bg-zinc-800"
           >
             Download Catalogs (PDF)
+          </Link>
+          <Link
+            href="/consulting"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block px-3 py-2 rounded-md text-base font-medium text-cyan-400 hover:bg-zinc-800"
+          >
+            Engineering Consulting
+          </Link>
+          <Link
+            href="/procurement"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block px-3 py-2 rounded-md text-base font-medium text-amber-400 hover:bg-zinc-800"
+          >
+            🌍 Global Procurement
           </Link>
           <Link
             href="/contact"

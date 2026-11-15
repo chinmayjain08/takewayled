@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { Mail, Phone, MapPin, MessageCircle, Clock, ShieldCheck, Zap } from 'lucide-react';
 import RfqForm from '@/components/RfqForm';
 
@@ -89,7 +90,15 @@ export default function ContactPage() {
 
         {/* Right: RFQ Form */}
         <div id="quote" className="lg:col-span-7 scroll-mt-24">
-          <RfqForm />
+          <Suspense
+            fallback={
+              <div className="glass-panel p-8 sm:p-10 rounded-2xl border border-zinc-800 text-center text-xs font-mono text-zinc-400">
+                Loading inquiry form...
+              </div>
+            }
+          >
+            <RfqForm />
+          </Suspense>
         </div>
       </div>
     </div>
